@@ -2,7 +2,7 @@
 permalink: /
 layout: index
 title: Homepage
-show_call_to_action: true
+show_call_to_action: false
 ---
 
 <header class="homepage-cover cf-responsive">
