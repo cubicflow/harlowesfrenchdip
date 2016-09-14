@@ -62,7 +62,7 @@
     top: 0px;
     height: 50px;
     width: 50%;
-    background-color: $brick;
+    background-color: $gold;
     color: $cream;
     display: block;
     transition: all 0.3s;
@@ -80,7 +80,7 @@
     }
 
     &:hover {
-      background-color: $brick--tint;
+      background-color: $gold--tint;
       color: $white;
     }
 

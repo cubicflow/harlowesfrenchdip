@@ -1,16 +1,13 @@
 timePeriods:
-  - label: Monday
-    normalService: 3pm - 12am (Happy Hour ALL DAY)
-    breakfast:
-  - label: Tuesday - Thursday
-    normalService: 3pm - 12am (Happy Hour 3pm - 7pm)
+  - label: Monday - Thursday
+    normalService: 11am - 9pm (Happy Hour 2pm - 6pm)
     breakfast:
   - label: Friday
-    normalService: 12pm - 12am (Happy Hour 12pm - 7pm)
+    normalService: 11am - 11pm (Happy Hour 2pm - 6pm)
     breakfast:
   - label: Saturday
-    normalService: 12pm - 12am
-    breakfast: 8am - 11:30am
+    normalService: 11am - 11pm
+    breakfast:
   - label: Sunday
-    normalService: 12pm - 10pm (Happy Hour ALL DAY)
-    breakfast: 8am - 11:30am
+    normalService: 11am - 9pm (Happy Hour ALL DAY)
+    breakfast:

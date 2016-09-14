@@ -1,14 +1,14 @@
 online_ordering_enabled: false
 social_media:
-  facebook_url: https://www.facebook.com/thebottleroombar
-  twitter_url: https://twitter.com/thebottleroom
-  instagram_url: https://www.instagram.com/thebottleroom/
-  yelp_url: http://www.yelp.com/biz/the-bottle-room-whittier
+  facebook_url: https://www.facebook.com/harlowesfrenchdip
+  twitter_url: https://twitter.com/harlowesdips
+  instagram_url: https://www.instagram.com/harlowesfrenchdip/
+  yelp_url: http://www.yelp.com/biz/harlowes-french-dip-pasadena-4
 location:
-  phone_number: 562-696-8000
-  fax: 626-389-5407
-  address_line_1: 6741 Greenleaf Avenue
-  address_line_2: Whittier, CA 90601
-  email: info@thebottleroombar.com
-send_contact_to: info@thebottleroombar.com
+  phone_number: 626-535-0985
+  fax: 626-535-0985
+  address_line_1: 43 E Union Street
+  address_line_2: Pasadena, CA 91103
+  email: info@harlowesfrenchdip.com
+send_contact_to: info@harlowesfrenchdip.com
 ordering_disabled_notice: Online ordering is currently disabled

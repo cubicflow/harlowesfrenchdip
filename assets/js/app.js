@@ -186,9 +186,9 @@ theBottleRoom.initMobileNav = function(){
 
   });
 
-  document.querySelector('#nav-more').addEventListener('click', function(){
-    mobileNav.classList.add('drilldown-active');
-  });
+  // document.querySelector('#nav-more').addEventListener('click', function(){
+  //   mobileNav.classList.add('drilldown-active');
+  // });
 
   document.querySelector('#nav-back').addEventListener('click', function(){
     mobileNav.classList.remove('drilldown-active');

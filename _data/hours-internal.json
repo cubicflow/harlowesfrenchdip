@@ -1,44 +1,44 @@
 {
   "monday": {
-    "open": "15:00",
-    "close": "22:59",
-    "restaurantClose": "23:59",
+    "open": "11:00",
+    "close": "20:00",
+    "restaurantClose": "21:00",
     "breakfast": {}
   },
   "tuesday": {
-    "open": "15:00",
-    "close": "22:59",
-    "restaurantClose": "23:59",
+    "open": "11:00",
+    "close": "20:00",
+    "restaurantClose": "21:00",
     "breakfast": {}
   },
   "wednesday": {
-    "open": "15:00",
-    "close": "22:59",
-    "restaurantClose": "23:59",
+    "open": "11:00",
+    "close": "20:00",
+    "restaurantClose": "21:00",
     "breakfast": {}
   },
   "thursday": {
-    "open": "15:00",
-    "close": "22:59",
-    "restaurantClose": "23:59",
+    "open": "11:00",
+    "close": "20:00",
+    "restaurantClose": "21:00",
     "breakfast": {}
   },
   "friday": {
-    "open": "12:00",
-    "close": "22:59",
-    "restaurantClose": "23:59",
+    "open": "11:00",
+    "close": "22:00",
+    "restaurantClose": "23:00",
     "breakfast": {}
   },
   "saturday": {
-    "open": "08:00",
-    "close": "22:59",
-    "restaurantClose": "23:59",
+    "open": "11:00",
+    "close": "22:00",
+    "restaurantClose": "23:00",
     "breakfast": {}
   },
   "sunday": {
-    "open": "08:00",
-    "close": "21:00",
-    "restaurantClose": "22:00",
+    "open": "11:00",
+    "close": "20:00",
+    "restaurantClose": "21:00",
     "breakfast": {}
   },
 };

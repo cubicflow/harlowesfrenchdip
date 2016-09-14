@@ -5,322 +5,385 @@ sidebar_order: 1
 is_public: true
 is_alcohol: false
 subcategories:
+  - name: Oysters
+    items:
+      - name: Oysters, Raw (6)
+        description: Dozen Oysters $29
+        price: 16.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Dozen Oysters +$13
+            options: "No|Yes[+13.00]"
+            required: false
+      - name: Oysters, Grilled (6)
+        description: Dozen Oysters $29
+        price: 16.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Dozen Oysters +$13
+            options: "No|Yes[+13.00]"
+            required: false
+      - name: Oysters, Fried (6)
+        description: Dozen Oysters $29
+        price: 16.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Dozen Oysters +$13
+            options: "No|Yes[+13.00]"
+            required: false
   - name: Bar Bites
     items:
-      - name: Hummus
-        description: Parsley pesto, French feta, pita and extra virgin olive oil
+      - name: Shrimp Cocktail (6)
+        description: Jumbo shrimp, cocktail sauce, Old Bay Aioli and lemon. Dozen Shrimp $29
+        price: 16.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Dozen Shrimp +$13
+            options: "No|Yes[+13.00]"
+            required: false
+      - name: Fried Chicken Wings
+        description: Sweet and Spicy sauce
         price: 6.00
         image_path:
         stackable: true
         orderable: true
-      - name: Crispy Fried Calamari
-        description: Szechuan dipping sauce and lemon
+      - name: Beer Cheese
+        description: Fried garlic bread mops
         price: 8.00
         image_path:
         stackable: true
         orderable: true
-      - name: Jidori Chicken "Lollipops"
-        description: Fried drumsticks with spicy sriracha honey glaze
-        price: 6.00
+      - name: Harlowe's Texas Toast
+        description: Bone marrow, garlic, parmesan, parsley
+        price: 4.00
         image_path:
         stackable: true
         orderable: true
-      - name: Chef's Cheese Plate
-        description: Weekly selection of cheeses with toast and apricot jam
+      - name: Smokey Deviled Eggs
+        description: “La Fin du Mustard”,  shallot, chives
+        price: 4.00
+        image_path:
+        stackable: true
+        orderable: true
+  - name: Sides
+    items:
+      - name: Salt Brine Kennebec Fries
+        description: With house ketchup
+        price: 5.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Garnet Yam Fries
+        description: Soy caramel, ginger salt
+        price: 5.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Yukon Potato Salad
+        description:
+        price: 3.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Red Cabbage or Blue Cheese Slaw
+        description:
+        price: 3.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Fried Onions w/ BBQ Sauce
+        description:
+        price: 5.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: House Dill or B&B Pickles
+        description:
+        price: 2.00
+        image_path:
+        stackable: true
+        orderable: true
+  - name: Salads
+    items:
+      - name: Simple Greens
+        description: House cut greens, cranberry, sunflower, almonds, grapes, white balsamic vinaigrette
+        price: 9.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Harlowe's Caesar
+        description: House cut romaine, baby kale, fried croutons, reggiano, roasted garlic dressing
+        price: 10.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Marinated Tomatoes
+        description: Red onions, cucumber, oregano, Valbreso feta, red wine vinaigrette
+        price: 11.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Little Gem Lettuce and Avocado
+        description: Green Goddess, cured egg yolk, Shaft Bleu, North Country Bacon
+        price: 12.00
+        image_path:
+        stackable: true
+        orderable: true
+  - name: The Dips
+    items:
+      - name: The Beef Dip
+        description: Beef au jus, side horseradish, 4.5oz carve
+        price: 9.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: 6oz carve +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: The Slow Roasted Pork Dip
+        description: Smoked Ham au jus, “La Fin du Mustard”, 4.5oz carve
+        price: 8.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: 6oz carve +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: The Turkey Dip
+        description: Bacon-Turkey au jus, garlic parmesan butter, 4.5oz carve
+        price: 8.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: 6oz carve +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: The Braised Lamb Dip
+        description: Lamb au jus, House Labneh, 4.5oz carve
+        price: 10.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: 6oz carve +$2
+            options: "No|Yes[+2.00]"
+            required: false
+  - name: Burgers
+    items:
+      - name: Beef
+        description: House-ground 5.5oz patty, served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun
+        price: 10.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Meat cooked to
+            options: "Rare|Medium-rare|Medium|Medium-well|Well"
+            required: true
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Turkey
+        description: House-ground 5.5oz patty, served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun
+        price: 9.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Veggie
+        description: House-ground 5.5oz patty, served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun
+        price: 8.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+  - name: Signatures
+    items:
+      - name: Slow Braised BBQ Short Rib
+        description: Choice of slaw, BBQ sauce
+        price: 12.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Pastrami
+        description: Mustard, house pickle, rye. Add $2 for half lb.
+        price: 12.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Pickle Brine Fried Chicken
+        description: Coleslaw, buttermilk aioli, pickles, sesame bun
+        price: 10.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Tomato Parmigiano
+        description: Fried heirloom tomato, mozzarella, marinara, basil
+        price: 9.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Shrimp Po' Boy
+        description: Cajun fried shrimp, coleslaw, remoulade
         price: 13.00
         image_path:
         stackable: false
         orderable: true
         custom_fields:
-          - name: With Charcuterie +$4
-            options: "No|Yes[+4.00]"
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
             required: false
-      - name: Mac n Cheese
-        description: Grafton aged cheddar and bacon-fat bread crumbs
-        price: 7.00
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Harlowe's Grilled Cheese
+        description: Ciabatta loaf, Harlowe’s American Cheese, sea salt
+        price: 8.00
         image_path:
-        stackable: true
+        stackable: false
         orderable: true
-      - name: Tony Tots
-        description: Homemade potato tots with chipotle aioli
-        price: 5.00
+        custom_fields:
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Meatball Marinara
+        description: House beef and pork blend, mozzarella, marinara
+        price: 10.00
         image_path:
-        stackable: true
+        stackable: false
         orderable: true
-      - name: Sweet Potato Fries
-        description: Tossed in fried ginger salt
-        price: 5.00
+        custom_fields:
+          - name: Add cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$3
+            options: "No|Yes[+3.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Spaghetti and Meatballs
+        description: Marinara sauce, Reggiano. Add meatball $2
+        price: 10.00
         image_path:
-        stackable: true
+        stackable: false
         orderable: true
-      - name: Shoestring Potatoes
-        description: Skinny fries tossed in sea salt and raw garlic
-        price: 5.00
-        image_path:
-        stackable: true
-        orderable: true
-  - name: Seasonal Small Bites
-    items:
-      - name: Corn on the Cob
-        description: Mexican crema, cotija and chili powder
-        price: 4.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Baby Heirloom Tomato Toast
-        description: Basil & garlic marinated with goat cheese on grilled ciabatta
-        price: 6.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Watermelon Salad
-        description: Baby kale with farro, feta, raisins and pickled onions
-        price: 7.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Stuffed Squash Blossoms
-        description: With zucchini, ricotta cheese and red pepper coulis
-        price: 7.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: BBQ Shrimp “Cocktail”
-        description: Sweet and spicy shrimp over horseradish scented coleslaw
+        custom_fields:
+          - name: Add meatball +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Pheasant Sausage
+        description: Black lentils, corn poblano rajas
         price: 9.00
         image_path:
         stackable: true
         orderable: true
-      - name: Pork Belly Tacos
-        description: (2) Slow braised pork belly with peach and habanero salsa
-        price: 8.00
+      - name: Bison Chili
+        description: Onions, cheddar, sour cream, Texas Toast
+        price: 12.00
         image_path:
         stackable: true
         orderable: true
-      - name: Grilled Pheasant Sausage
-        description: Bacon baked lentils and duck-fat onions
-        price: 8.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Baby Back Ribs
-        description: Miso BBQ glaze and american potato salad
-        price: 9.00
-        image_path:
-        stackable: true
-        orderable: true
-  - name: Fresh Salads
+  - name: Dessert
     items:
-      - name: House Greens
-        description: Blue cheese crumbles, dried apricots, almonds and sherry-honey
+      - name: Beignets
+        description: Cinnamon sugar, caramel and chocolate sauces
         price: 7.00
         image_path:
         stackable: true
         orderable: true
-      - name: Wild Arugula Salad
-        description: French feta, pickled onions, hazelnuts and white balsamic
+      - name: Chocolate Tort
+        description: Black n blue sauce, maple whipped cream
         price: 7.00
         image_path:
         stackable: true
         orderable: true
-      - name: Caesar Salad
-        description: Romaine hearts, caesar dressing, fried brioche croutons
-        price: 8.00
-        image_path:
-        stackable: true
-        orderable: true
-  - name: Flatbreads
-    items:
-      - name: Summer Margarita
-        description: Fresh and sun dried tomatoes, basil and crispy garlic
-        price: 11.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Add bacon +$2
-            options: "No|Yes[+2.00]"
-            required: false
-      - name: Kernel Swine
-        description: North country bacon, roasted corn, caramelized onions and ricotta
-        price: 11.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Vegetarian option (no charge)
-            options: "No|Yes"
-            required: false
-      - name: Spanish Chorizo
-        description: Piquillo peppers, goat cheese, and scallions
-        price: 12.00
-        image_path:
-        stackable: true
-        orderable: true
-  - name: Burgers
-    items:
-      - name: The Bottle Room Original
-        description: Sweet onion relish and arugula with blue and swiss cheeses. With side arugula salad
-        price: 12.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Meat cooked to
-            options: "Rare|Medium-rare|Medium|Medium-well|Well"
-            required: true
-          - name: Add bacon +$2
-            options: "No|Yes[+2.00]"
-            required: false
-          - name: Add fried egg +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add avocado +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add tomato +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add pickles +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Substitute Mushrooms for non-meat eaters (no charge)
-            options: "No|Yes"
-            required: false
-          - name: Substitute Salad for Fries +$2
-            options: "No|Yes, Shoestring Fries[+2.00]|Yes, Sweet potato fries[+2.00]"
-            required: false
-      - name: Uptown Bacon Cheese Burger
-        description: Bacon marmalade, swiss cheese, homemade onion ring and BBQ. With side arugula salad
-        price: 12.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Meat cooked to
-            options: "Rare|Medium-rare|Medium|Medium-well|Well"
-            required: true
-          - name: Add bacon +$2
-            options: "No|Yes[+2.00]"
-            required: false
-          - name: Add fried egg +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add avocado +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add tomato +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add pickles +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Substitute Mushrooms for non-meat eaters (no charge)
-            options: "No|Yes"
-            required: false
-          - name: Substitute Salad for Fries +$2
-            options: "No|Yes, Shoestring Fries[+2.00]|Yes, Sweet potato fries[+2.00]"
-            required: false
-      - name: American Dream
-        description: Crispy pickles, House-Made American Cheese and Russian Dressing. With side arugula salad
-        price: 12.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Meat cooked to
-            options: "Rare|Medium-rare|Medium|Medium-well|Well"
-            required: true
-          - name: Add bacon +$2
-            options: "No|Yes[+2.00]"
-            required: false
-          - name: Add fried egg +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add avocado +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add tomato +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add pickles +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Substitute Mushrooms for non-meat eaters (no charge)
-            options: "No|Yes"
-            required: false
-          - name: Substitute Salad for Fries +$2
-            options: "No|Yes, Shoestring Fries[+2.00]|Yes, Sweet potato fries[+2.00]"
-            required: false
-      - name: California Classic
-        description: Cheddar, lettuce, House Pickles, tomato and thousand island. With side arugula salad
-        price: 12.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Meat cooked to
-            options: "Medium|Medium-well|Well"
-            required: true
-          - name: Add bacon +$2
-            options: "No|Yes[+2.00]"
-            required: false
-          - name: Add fried egg +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add avocado +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add tomato +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add pickles +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Substitute Mushrooms for non-meat eaters (no charge)
-            options: "No|Yes"
-            required: false
-          - name: Substitute Salad for Fries +$2
-            options: "No|Yes, Shoestring Fries[+2.00]|Yes, Sweet potato fries[+2.00]"
-            required: false
-      - name: Avocado Turkey Burger
-        description: Dark and white turkey blend. North Country Bacon, mushrooms, swiss cheese, and garlic aioli. With side arugula salad
-        price: 12.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Add bacon +$2
-            options: "No|Yes[+2.00]"
-            required: false
-          - name: Add fried egg +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add avocado +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add pickles +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Add tomato +$1
-            options: "No|Yes[+1.00]"
-            required: false
-          - name: Substitute Mushrooms for non-meat eaters (no charge)
-            options: "No|Yes"
-            required: false
-          - name: Substitute Salad for Fries +$2
-            options: "No|Yes, Shoestring Fries[+2.00]|Yes, Sweet potato fries[+2.00]"
-            required: false
-  - name: Sweets
-    items:
-      - name: Warm brioche bread pudding
-        description: With vanilla bean gelato, salted caramel and candied hazelnuts
-        price: 5.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Hard Root Beer Float
-        description: Root Cellars Row Hard Root Beer with vanilla gelato
+      - name: Bread Pudding
+        description: Vanilla bean gelato, salted caramel, candied hazelnuts
         price: 7.00
         image_path:
         stackable: true

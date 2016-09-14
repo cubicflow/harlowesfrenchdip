@@ -87,7 +87,7 @@
     // PRIMARY ACTION BUTTON
     a.snipcart-next, .cf-snipcart #snipcart-main-container a.snipcart-finalize, .cf-snipcart #snipcart-main-container a.snipcart-mainaction {
       font-family: $font-family--regular;
-      background: $brick;
+      background: $gold;
       border: none;
       text-shadow: none;
       color: $cream;
@@ -98,7 +98,7 @@
 
       &:hover {
         font-family: $font-family--regular;
-        background: $brick--tint;
+        background: $gold--tint;
         border: none;
         text-shadow: none;
         color: $cream;

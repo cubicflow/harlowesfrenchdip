@@ -10,7 +10,7 @@ a {
   }
 
   &:hover {
-    color: $brick--lighter;
+    color: $gold;
   }
 }
 
@@ -67,11 +67,11 @@ a {
   }
 
   &--fill-cart {
-    background-color: $brick;
+    background-color: $gold;
     color: $cream;
 
     &.active, &:hover {
-      background-color: lighten($brick, 10);
+      background-color: lighten($gold, 10);
       color: $cream;
     }
   }

@@ -13,9 +13,10 @@ show_call_to_action: true
   </div>
 
   <div class="homepage-cover__content">
-    <img class="homepage-cover__content__crest" src="/assets/img/crest--light.svg">
-    <img class="homepage-cover__content__masthead" src="/assets/img/masthead.svg">
-    <span class="homepage-cover__content__tagline editable">Upscale&nbsp;pub-fare in&nbsp;Uptown&nbsp;Whittier</span>
+    <img class="homepage-cover__content__crest" src="/assets/img/logo--monogram--gold.svg">
+    <img class="homepage-cover__content__masthead" src="/assets/img/logo--masthead.svg">
+    <span class="homepage-cover__content__tagline editable">Updated website coming soon!</span>
+    <br><br>
 
     <div class="homepage-cover__content__icons">
       <a href="tel:{{site.data.settings.location.phone_number}}">
@@ -50,7 +51,7 @@ show_call_to_action: true
         <a href="{{site.data.settings.social_media.facebook_url}}" target="_blank"><img src="/assets/img/social-facebook--light.svg"></a>
       </div>
 
-      <div class="homepage-cover__foot__arrow">
+      <!-- <div class="homepage-cover__foot__arrow"> -->
       </div>
 
     </div>
@@ -59,7 +60,7 @@ show_call_to_action: true
 </header>
 
 
-<div class="slide slide--atmosphere cf-responsive">
+<!-- <div class="slide slide--atmosphere cf-responsive">
   <div class="slide__content">
     <h1 class="editable">A simple atmosphere</h1>
     <p class="editable">Showcased by a beautifully exposed brick wall and raw construction along side modern amenities, The Bottle Room evokes the idea of historic building revivals. The simplicity is intentional. It allows guests the opportunity to surround themselves in a cozy environment free from unwanted distractions. We believe the design should be in the food, the drinks and friends.</p>
@@ -147,4 +148,4 @@ show_call_to_action: true
   <a href="/menu/eats/" class="new-menu-cta__container">
     <span class="editable">The New Menu</span>
   </a>
-</div>
+</div> -->

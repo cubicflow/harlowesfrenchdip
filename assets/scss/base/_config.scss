@@ -19,31 +19,35 @@ $brick: #7D3029;
 $brick--tint: #87423A;
 $brick--lighter: lighten($brick, 30%);
 
+$gold: #B7A86E;
+$gold--tint: #DDCD8F;
+$gold--lighter: lighten($gold, 30%);
+
 
 
 //
 // Fonts
 // --------------------------------------------------
 @font-face {
-    font-family: Brown-Light;
-    src: url(../fonts/Brown-Light.otf);
+    font-family: Niveau-Light;
+    src: url(../fonts/NiveauGroteskLight.otf);
 }
 @font-face {
-    font-family: Brown-Regular;
-    src: url(../fonts/Brown-Regular.otf);
+    font-family: Niveau-Regular;
+    src: url(../fonts/NiveauGroteskRegular.otf);
 }
 @font-face {
-    font-family: Brown-Bold;
-    src: url(../fonts/Brown-Bold.otf);
+    font-family: Niveau-Bold;
+    src: url(../fonts/NiveauGroteskBold.otf);
 }
 @font-face {
-    font-family: LyonDisplay-Black;
-    src: url(../fonts/LyonDisplay-Black.otf);
+    font-family: Merriam;
+    src: url(../fonts/YWFTMerriam.otf);
 }
-$font-family--light: 'Brown-Light', Helvetica, Roboto, Arial, sans-serif;
-$font-family--regular: 'Brown-Regular', Helvetica, Roboto, Arial, sans-serif;
-$font-family--bold: 'Brown-Bold', Helvetica, Roboto, Arial, sans-serif;
-$font-family--alt: 'LyonDisplay-Black', Helvetica, Roboto, Arial, sans-serif;
+$font-family--light: 'Niveau-Light', Helvetica, Roboto, Arial, sans-serif;
+$font-family--regular: 'Niveau-Regular', Helvetica, Roboto, Arial, sans-serif;
+$font-family--bold: 'Niveau-Bold', Helvetica, Roboto, Arial, sans-serif;
+$font-family--alt: 'Merriam', Helvetica, Roboto, Arial, sans-serif;
 
 
 //

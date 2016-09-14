@@ -1,6 +1,6 @@
-# The Bottle Room
+# Harlowe's French Dip
 
-Website for the bottleroombar.com using Jekyll, Foundation 6, and Snipcart.
+Website for the harlowesfrenchdip.com using Jekyll, Foundation 6, and Snipcart.
 
 ## Editing
 
