@@ -1,0 +1,55 @@
+{% if include.style == 'button' %}
+<div class="nav">
+{% endif %}
+
+{% if include.style == 'logo' %}
+<div class="nav nav--solidbg">
+{% endif %}
+
+  <div class="nav__container">
+
+    {% if include.style == 'logo' %}
+      <a class="nav__logo" href="/">
+        <img src="/assets/img/crest--light.svg">
+      </a>
+    {% endif %}
+    {% if include.style == 'button' %}
+      <a class="nav__button" href="/menu/eats">
+        {% if site.data.settings.online_ordering_enabled %}
+        Order
+        {% else %}
+        Menu
+        {% endif %}
+      </a>
+    {% endif %}
+
+
+    <div id="open-nav" class="nav__expand">
+      <div class="nav__expand__circle">
+        <div class="nav__expand__line nav__expand__line--top">
+        </div>
+        <div class="nav__expand__line nav__expand__line--bottom">
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav__links">
+      <ul>
+        <li><a {% if page.url == '/' %} class="active" {% endif %} href="/">Home</a></li>
+        <li><a {% if page.url == '/menu/eats/' %} class="active" {% endif %} href="/menu/eats">Craft Food</a></li>
+        <li><a {% if page.url == '/menu/ontap/' %} class="active" {% endif %} href="/menu/ontap">Craft Beer</a></li>
+        <li><a {% if page.url == '/location' %} class="active" {% endif %} href="/location">Location</a></li>
+        <li>
+          <a {% if page.url == '/more' %} class="active" {% endif %}>More +</a>
+          <ul class="nav__links__dropdown">
+            <li><a href="/events">Events</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/chef">Chef&nbsp;Tony</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+</div>

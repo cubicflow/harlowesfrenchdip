@@ -1,0 +1,188 @@
+
+.homepage-cover {
+  width: 100%;
+  height: 90vh;
+  margin-top: -80px;
+  max-width: none;
+  min-width: none;
+  min-height: 460px;
+  max-height: 960px;
+  position: relative;
+  background-image: url(/assets/img/home/hero-cover.jpg);
+  //background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  @include breakpoint(medium) {
+    height: 98vh;
+  }
+
+  &__overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: $near-black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  &__content {
+
+    width: 90%;
+    margin-left: 5%;
+    top: 50%;
+    margin-top: -160px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+
+    @include breakpoint(medium) {
+      margin-top: -130px;
+    }
+
+    img {
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+    }
+
+    &__crest {
+      width: 82px;
+      height: 80px;
+      margin-bottom: 35px;
+
+      @include breakpoint(medium){
+        width: 102px;
+        height: 99px;
+      }
+    }
+
+    &__masthead {
+      width: 100%;
+      max-width: 432px;
+      height: 22px;
+      margin-bottom: 25px;
+    }
+
+    &__tagline {
+      font-family: $font-family--light;
+      line-height: 1.25em;
+      @include font-size--medium();
+      @include show-for(medium);
+
+    }
+
+    &__icons {
+      @include hide-for(medium);
+
+      a {
+      margin: 15px 8% 15px 8%; // Masthead.svg adds 25px margin above //
+      display: inline-block;
+      color: $cream;
+      opacity: 0.6;
+      transition: all 0.3s;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        img {
+          margin-bottom: 20px;
+        }
+
+        span {
+
+        }
+      }
+
+    }
+
+  }
+
+  &__foot {
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    width: 100%;
+
+
+    &__container{
+      @include container();
+      overflow: visible;
+      position: relative;
+
+    }
+
+    &__hours {
+
+      margin: 0px auto;
+      text-align: center;
+      font-size: $font-size--xsmall;
+      opacity: 0.6;
+      color: $cream;
+      display: block;
+
+      &:hover {
+        color: $cream;
+        opacity: 1;
+      }
+
+      &:visited {
+        color: $cream;
+      }
+
+      @include breakpoint(medium) {
+        text-align: left;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+      }
+
+      span {
+        display: block;
+
+        @include breakpoint(large) {
+          display: inline-block;
+          margin-right: 20px
+        }
+      }
+
+    }
+
+    &__arrow {
+      background-image: url(/assets/img/arrow-down.svg);
+      width: 20px;
+      height: 10px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 25px auto 15px auto;
+    }
+
+    &__social {
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+      @include show-for(medium);
+      @include breakpoint(medium){
+        bottom: 10px;
+      }
+      @include breakpoint(large){
+        bottom: 0px;
+      }
+
+      a {
+        opacity: 0.5;
+        padding: 10px;
+        transition: all 0.3s;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+
+  }
+
+}

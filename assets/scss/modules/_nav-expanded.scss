@@ -1,0 +1,150 @@
+.nav-expanded {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  overflow: scroll;
+  z-index: 99;
+  background-color: $beige;
+  pointer-events: none;
+  @include hide-for(medium);
+
+  transition: all 0.3s;
+
+
+
+  &.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+
+  &.drilldown-active {
+
+    .nav-expanded__crest {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .nav-expanded__back {
+      opacity: 1;
+      pointer-events: all;
+      position: absolute;
+    }
+
+    .nav-expanded__links--level1 {
+      width: 0px;
+      height: 0px;
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      display: none;
+    }
+
+    .nav-expanded__links--level2 {
+      width: auto;
+      height: auto;
+      opacity: 1;
+      pointer-events: all;
+      position: relative;
+      display: block;
+    }
+
+    .nav-expanded__social {
+      opacity: 0;
+    }
+
+  }
+
+  &__container {
+    @include container();
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__crest {
+    margin-top: 15px;
+
+    transition: opacity 0.3s;
+  }
+
+  &__back {
+    @extend .button;
+    @extend .button--outline-alt;
+    min-width: 90px;
+    margin-top: 19px;
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+  }
+
+  &__links {
+    border-top: 1px solid fade-out($grey-warm--medium, 0.6);
+    border-bottom: 1px solid fade-out($grey-warm--medium, 0.6);
+    margin-top: 19px;
+    padding: 20px 0px 20px 0px;
+    transition: opacity 0.5s;
+
+    ul {
+      margin: 0px;
+
+      li {
+        list-style-type: none;
+
+        a {
+          padding: 3px 0px 3px 0px;
+          font-family: $font-family--alt;
+          font-size: $font-size--large;
+          color: fade-out($grey-warm--dark, 0.6);
+          transition: all 0.2s;
+          display: block;
+
+          &:hover {
+            color: $grey-warm--dark;
+          }
+        }
+      }
+    }
+
+    #nav-more {
+      background-image: url(/assets/img/forward.svg);
+      background-repeat: no-repeat;
+      background-position: right 15px center;
+    }
+
+    &--level1 {
+
+    }
+
+    &--level2 {
+      width: 0px;
+      height: 0px;
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      display: none;
+    }
+
+  }
+
+  &__social {
+    text-align: center;
+
+    &__button {
+      padding: 12px;
+      margin: 16px 4% 16px 4%;
+      display: inline-block;
+      opacity: 0.6;
+      transition: all 0.2s;
+
+      &:hover {
+        opacity: 1.0;
+      }
+    }
+
+  }
+
+}

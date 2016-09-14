@@ -1,0 +1,98 @@
+// --------------------------------------------------
+// Links
+// --------------------------------------------------
+a {
+  color: $cream;
+  transition: 0.2s;
+
+  &:visited {
+    color: $cream;
+  }
+
+  &:hover {
+    color: $brick--lighter;
+  }
+}
+
+
+
+// --------------------------------------------------
+// Buttons
+// --------------------------------------------------
+
+.button {
+
+  display: inline-block;
+  margin: 0.25em;
+  padding: 0.80em 1.22em 0.68em 1.22em;
+  letter-spacing: 0.07em;
+  //height: 2.85em;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  min-width: 10em;
+  font-size: $font-size--xsmall;
+  line-height: 1.5em;
+  transition: all 0.3s;
+
+  img {
+    margin-left: -3px;
+    margin-right: 8px;
+    margin-top: -3px;
+    vertical-align: middle;
+    display: inline-block;
+    opacity: 0.6;
+    transition: all 0.2s;
+  }
+
+  &:visited {
+    color: inherit;
+  }
+
+  &:hover {
+    img {
+      opacity: 1;
+    }
+  }
+
+
+  &--fill {
+    background-color: $cream;
+    color: $grey-warm--dark;
+
+    &.active, &:hover {
+      background-color: darken($cream, 15);
+      color: $grey-warm--dark;
+    }
+  }
+
+  &--fill-cart {
+    background-color: $brick;
+    color: $cream;
+
+    &.active, &:hover {
+      background-color: lighten($brick, 10);
+      color: $cream;
+    }
+  }
+
+  &--outline {
+    border: 1px solid fade-out($grey-warm--medium, 0.6);
+    color: $cream;
+
+    &.active, &:hover {
+      border: 1px solid $grey-warm--medium;
+      color: $cream;
+    }
+  }
+  &--outline-alt {
+    border: 1px solid fade-out($grey-warm--medium, 0.6);
+    color: $grey-warm--medium;
+
+    &.active, &:hover {
+      border: 1px solid $grey-warm--medium;
+      color: $grey-warm--dark;
+    }
+  }
+
+}

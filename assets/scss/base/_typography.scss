@@ -1,0 +1,15 @@
+
+body {
+
+  font-size: $font-size--xsmall;
+  line-height: 1.75em;
+
+}
+
+p {
+
+  @include font-size--xsmall();
+  margin-bottom: 2.5em;
+  line-height: 1.75em;
+
+}

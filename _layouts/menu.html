@@ -1,0 +1,110 @@
+---
+layout: default
+---
+
+{% include menu-dropdown.html %}
+
+<div class="menu-modal" id="cf-gallery-modal">
+
+  <img class="menu-modal__image" id="cf-gallery-modal-img">
+
+  <div class="menu-modal__preloader">
+
+  </div>
+
+</div>
+
+
+<div id="menu-status-bar" class="menu-status-bar">
+</div>
+
+<div class="menu">
+
+  <div class="menu__sidebar">
+    <div class="menu__sidebar__category">
+    {% assign menu = site.menu | sort: 'sidebar_order' %}
+    {% for category in menu %}
+
+      <a href="{{category.url}}">{{ category.title }}</a>
+
+      {% if page.url == category.url %}
+      <div class="menu__sidebar__category__subcategories">
+      {% for subcategory in category.subcategories %}
+        <a href="#{{ subcategory.name | slugify }}">{{ subcategory.name }}</a>
+      {% endfor %}
+      </div>
+      {% endif %}
+
+    {% endfor %}
+    </div>
+  </div>
+
+  <div class="menu__body">
+
+    {% for subcategory in page.subcategories %}
+
+    <div id="{{ subcategory.name | slugify }}" class="menu__subcategory">
+
+      <div class="menu__subcategory__title">{{ subcategory.name }}</div>
+
+
+      {% if page.is_alcohol %}
+
+        {% for item in subcategory.items %}
+        <div id="{{ item.name | slugify }}" class="menu__subcategory__item">
+
+          <div class="menu__subcategory__item__title">{{ item.name }}</div>
+          <div class="menu__subcategory__item__description">{{item.abv}}&nbsp;&nbsp;&nbsp;&nbsp;{{item.origin}}&nbsp;&nbsp;&nbsp;&nbsp;{{ item.description }}</div>
+          <div class="menu__subcategory__item__price">{{ item.price }}</div>
+
+        </div>
+        {% endfor %}
+
+      {% else %}
+
+        {% for item in subcategory.items %}
+        <div id="{{ item.name | slugify }}" class="menu__subcategory__item">
+
+          <div class="menu__subcategory__item__title">{{ item.name }}</div>
+
+          {% if item.image_path %}
+            <a href="#" data-fullsize="{{item.image_path}}" class="menu__subcategory__item__photo">Photo</a>
+          {% endif %}
+
+          <div class="menu__subcategory__item__description">
+            {{ item.description }}
+          </div>
+
+          <div class="menu__subcategory__item__price">$ {{ item.price }}</div>
+
+          {% if item.orderable and site.data.settings.online_ordering_enabled %}
+            <a href="#" class="menu__subcategory__item__bag snipcart-add-item disabled"
+            data-item-id="{{item.name | slugify}}{{forloop.index}}"
+            data-item-name="{{item.name}}"
+            data-item-price="{{item.price}}"
+            data-item-url="{{site.url}}{{page.url}}"
+            data-item-description="{{item.description}}}"
+            data-item-stackable="{{item.stackable}}"
+            data-item-shipable="false"
+            {% for custom_field in item.custom_fields %}
+              data-item-custom{{forloop.index}}-name="{{custom_field.name}}"
+              {% if custom_field.options %} data-item-custom{{forloop.index}}-options="{{custom_field.options}}" {% endif %}
+              data-item-custom{{forloop.index}}-required="{{custom_field.required}}"
+            {% endfor %}
+            >
+              <span>Ordering Disabled</span>
+              <img src="/assets/img/bag.svg">
+            </a>
+          {% endif %}
+
+        </div>
+        {% endfor %}
+      {% endif %}
+
+    </div>
+
+    {% endfor %}
+
+  </div>
+
+</div>

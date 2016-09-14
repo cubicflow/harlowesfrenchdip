@@ -1,0 +1,135 @@
+//
+// Colors
+// --------------------------------------------------
+$black: #000;
+$white: #fff;
+$near-black: #212020;
+
+$grey-warm--xdark: #2C2B2A;
+$grey-warm--dark: #383736;
+$grey-warm--medium: #807D7B;
+
+$grey-cool--green: #ECEEEB;
+$grey-cool--blue: #E1E3E3;
+
+$beige: #E4E1DE;
+$cream: #FAF8F4;
+
+$brick: #7D3029;
+$brick--tint: #87423A;
+$brick--lighter: lighten($brick, 30%);
+
+
+
+//
+// Fonts
+// --------------------------------------------------
+@font-face {
+    font-family: Brown-Light;
+    src: url(../fonts/Brown-Light.otf);
+}
+@font-face {
+    font-family: Brown-Regular;
+    src: url(../fonts/Brown-Regular.otf);
+}
+@font-face {
+    font-family: Brown-Bold;
+    src: url(../fonts/Brown-Bold.otf);
+}
+@font-face {
+    font-family: LyonDisplay-Black;
+    src: url(../fonts/LyonDisplay-Black.otf);
+}
+$font-family--light: 'Brown-Light', Helvetica, Roboto, Arial, sans-serif;
+$font-family--regular: 'Brown-Regular', Helvetica, Roboto, Arial, sans-serif;
+$font-family--bold: 'Brown-Bold', Helvetica, Roboto, Arial, sans-serif;
+$font-family--alt: 'LyonDisplay-Black', Helvetica, Roboto, Arial, sans-serif;
+
+
+//
+// Font Sizes
+// --------------------------------------------------
+$font-size--xsmall: 14px;
+$font-size--small: 16px;
+$font-size--medium: 20px;
+$font-size--large: 24px;
+$font-size--xlarge: 32px;
+$font-size--xxlarge: 44px;
+
+
+@mixin font-size--xsmall(){
+  font-size: $font-size--xsmall;
+  line-height: 1.5em;
+
+  @include breakpoint(medium) {
+    font-size: #{ $font-size--xsmall + 2px };
+  }
+}
+
+@mixin font-size--small(){
+  font-size: $font-size--small;
+  line-height: 1.75em;
+
+  @include breakpoint(medium) {
+    font-size: #{ $font-size--small + 2px };
+  }
+
+  @include breakpoint(large) {
+    font-size: #{ $font-size--small + 4px };
+  }
+}
+
+@mixin font-size--medium(){
+  font-size: $font-size--medium;
+  line-height: 1.5em;
+
+  @include breakpoint(medium) {
+    font-size: #{ $font-size--medium + 4px };
+  }
+}
+
+@mixin font-size--large(){
+  font-size: $font-size--large;
+  line-height: 1.4em;
+
+  @include breakpoint(medium) {
+    font-size: #{ $font-size--large + 4px };
+  }
+}
+
+@mixin font-size--xlarge(){
+  font-size: $font-size--xlarge;
+  line-height: 1.3em;
+
+  @include breakpoint(medium) {
+    font-size: #{ $font-size--xlarge + 4px };
+  }
+}
+
+@mixin font-size--xxlarge(){
+  font-size: $font-size--xxlarge;
+  line-height: 1.2em;
+
+  @include breakpoint(medium) {
+    font-size: #{ $font-size--xxlarge + 4px };
+  }
+}
+
+
+//////
+// OTHER VARS
+//////
+
+@mixin cover-min-height {
+  min-height: 320px;
+
+  @include breakpoint(medium) {
+    min-height: 400px;
+  }
+
+  @include breakpoint(large) {
+    min-height: 480px;
+  }
+}
+
+$cover-min-height: 280px;
