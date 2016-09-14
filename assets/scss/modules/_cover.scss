@@ -33,17 +33,17 @@
       width: 90%;
       margin-left: 5%;
       top: 50%;
-      margin-top: -220px;
+      margin-top: -180px;
       text-align: center;
       position: absolute;
       z-index: 2;
 
-      a {
-        // border-bottom: 1px dotted;
-      }
+      // a {
+      //   border-bottom: 1px dotted;
+      // }
 
       @include breakpoint(medium) {
-        margin-top: -200px;
+        margin-top: -180px;
       }
 
       img {
@@ -55,27 +55,33 @@
       &__crest {
         width: 122px;
         height: 100px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
 
         @include breakpoint(medium){
           width: 150px;
           height: 123px;
+          margin-bottom: 40px;
         }
       }
 
       &__masthead {
         width: 100%;
-        max-width: 250px;
+        max-width: 200px;
         height: 89px;
-        margin-bottom: 50px;
+        margin-bottom: 15px;
+
+        @include breakpoint(medium){
+          max-width: 250px;
+          height: 89px;
+          margin-bottom: 40px;
+        }
       }
 
       &__tagline {
         font-family: $font-family--light;
         line-height: 1.25em;
         @include font-size--medium();
-        // @include show-for(medium);
-
+        @include show-for(medium);
 
       }
 

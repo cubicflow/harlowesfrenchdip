@@ -14,7 +14,6 @@ show_call_to_action: true
     <img class="homepage-cover__content__crest" src="/assets/img/logo--monogram--gold.svg">
     <img class="homepage-cover__content__masthead" src="/assets/img/logo--masthead.svg">
     <span class="homepage-cover__content__tagline editable">Updated website coming soon!</span>
-    <br><br>
 
     <div class="homepage-cover__content__icons">
       <a href="tel:{{site.data.settings.location.phone_number}}">
