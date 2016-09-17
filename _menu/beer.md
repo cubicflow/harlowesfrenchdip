@@ -31,16 +31,10 @@ subcategories:
         description: English Pale Ale
         price: $7 - 16oz
         image_path:
-      - name: Mother Earth Boo Koo
+      - name: Noble Ale Works Back in the Day IPA
         abv: 7%
-        origin: Vista, CA
-        description: American IPA
-        price: $7 - 16oz
-        image_path:
-      - name: Noble Ale Works Tongue Tickles
-        abv: 8%
         origin: Anaheim, CA
-        description: Double IPA
+        description: IPA
         price: $7 - 16oz
         image_path:
       - name: Phantom Carriage Muis
@@ -48,6 +42,12 @@ subcategories:
         origin: Carson, CA
         description: 100% Brett Blonde
         price: $9 - 12oz
+        image_path:
+      - name: Track 7 Blood Transfusion
+        abv: 6.3%
+        origin: Sacramento, CA
+        description: Blood Orange Wheat IPA
+        price: $7 - 16oz
         image_path:
       - name: Van Steenberg Van De Garre
         abv: 9%
