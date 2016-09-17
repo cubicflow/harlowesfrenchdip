@@ -19,16 +19,22 @@ subcategories:
         description: Brown Ale
         price: $7 - 16oz
         image_path:
-      - name: Beachwood Knucklehead Red
-        abv: 7%
+      - name: Beachwood Amalgamator
+        abv: 7.1%
         origin: Long Beach, CA
-        description: Red Ale
+        description: IPA
         price: $9 - 16oz
         image_path:
       - name: Craftsman Brewing Co. Poppyfields
         abv: 4.5%
         origin: Pasadena, CA
         description: English Pale Ale
+        price: $7 - 16oz
+        image_path:
+      - name: Firestone Walker Oktoberfest
+        abv: 5%
+        origin: Paso Robles, CA
+        description: German Marzen
         price: $7 - 16oz
         image_path:
       - name: Noble Ale Works Back in the Day IPA
@@ -42,12 +48,6 @@ subcategories:
         origin: Carson, CA
         description: 100% Brett Blonde
         price: $9 - 12oz
-        image_path:
-      - name: Track 7 Blood Transfusion
-        abv: 6.3%
-        origin: Sacramento, CA
-        description: Blood Orange Wheat IPA
-        price: $7 - 16oz
         image_path:
       - name: Van Steenberg Van De Garre
         abv: 9%
