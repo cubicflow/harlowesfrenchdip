@@ -17,16 +17,6 @@ subcategories:
           - name: Dozen Oysters +$13
             options: "No|Yes[+13.00]"
             required: false
-      - name: Oysters, Grilled (6)
-        description: Dozen Oysters $29
-        price: 16.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Dozen Oysters +$13
-            options: "No|Yes[+13.00]"
-            required: false
       - name: Oysters, Fried (6)
         description: Dozen Oysters $29
         price: 16.00
@@ -39,8 +29,8 @@ subcategories:
             required: false
   - name: Bar Bites
     items:
-      - name: Shrimp Cocktail (6)
-        description: Jumbo shrimp, cocktail sauce, Old Bay Aioli and lemon. Dozen Shrimp $29
+      - name: Shrimp Cocktail
+        description: House Cocktail Sauce, cucumber, red onion, avocado
         price: 16.00
         image_path:
         stackable: false
@@ -93,7 +83,13 @@ subcategories:
         image_path:
         stackable: true
         orderable: true
-      - name: Red Cabbage or Blue Cheese Slaw
+      - name: Red Cabbage Slaw
+        description:
+        price: 3.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Bleu Cheese Slaw
         description:
         price: 3.00
         image_path:
@@ -105,7 +101,13 @@ subcategories:
         image_path:
         stackable: true
         orderable: true
-      - name: House Dill or B&B Pickles
+      - name: House Dill Pickles
+        description:
+        price: 2.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Bread & Butter Pickles
         description:
         price: 2.00
         image_path:
@@ -125,14 +127,14 @@ subcategories:
         image_path:
         stackable: true
         orderable: true
-      - name: Marinated Tomatoes
-        description: Red onions, cucumber, oregano, Valbreso feta, red wine vinaigrette
+      - name: Beet Salad
+        description: Oranges, French Feta, pistachio
         price: 11.00
         image_path:
         stackable: true
         orderable: true
-      - name: Little Gem Lettuce and Avocado
-        description: Green Goddess, cured egg yolk, Shaft Bleu, North Country Bacon
+      - name: Little Gem "Cobb"
+        description: Bleu cheese, bacon, avocado, egg, tomato, Green Goddess dressing
         price: 12.00
         image_path:
         stackable: true
@@ -179,10 +181,10 @@ subcategories:
           - name: 6oz carve +$2
             options: "No|Yes[+2.00]"
             required: false
-  - name: Burgers
+  - name: The Burger
     items:
-      - name: Beef
-        description: House-ground 5.5oz patty, served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun
+      - name: Single Patty
+        description: Proprietary Blend of chuck, short rib, and brisket. 5.5oz patties. Served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun. Add Cheese +$1. Veggie Patty available upon request
         price: 10.00
         image_path:
         stackable: false
@@ -191,39 +193,19 @@ subcategories:
           - name: Meat cooked to
             options: "Rare|Medium-rare|Medium|Medium-well|Well"
             required: true
-          - name: Add cheese +$1
+          - name: Substitute Veggie Patty
+            options: "No|Yes"
+            required: false
+          - name: Add House American Cheese +$1
             options: "No|Yes[+1.00]"
             required: false
-          - name: Add North Country Bacon +$3
-            options: "No|Yes[+3.00]"
-            required: false
-          - name: Add 1/2 avocado +$2
-            options: "No|Yes[+2.00]"
-            required: false
-      - name: Turkey
-        description: House-ground 5.5oz patty, served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun
-        price: 9.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Add cheese +$1
+          - name: Add Swiss Cheese +$1
             options: "No|Yes[+1.00]"
             required: false
-          - name: Add North Country Bacon +$3
-            options: "No|Yes[+3.00]"
+          - name: Add cheddar cheese +$1
+            options: "No|Yes[+1.00]"
             required: false
-          - name: Add 1/2 avocado +$2
-            options: "No|Yes[+2.00]"
-            required: false
-      - name: Veggie
-        description: House-ground 5.5oz patty, served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun
-        price: 8.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Add cheese +$1
+          - name: Add bleu cheese +$1
             options: "No|Yes[+1.00]"
             required: false
           - name: Add North Country Bacon +$3
@@ -241,9 +223,6 @@ subcategories:
         stackable: false
         orderable: true
         custom_fields:
-          - name: Add cheese +$1
-            options: "No|Yes[+1.00]"
-            required: false
           - name: Add North Country Bacon +$3
             options: "No|Yes[+3.00]"
             required: false
@@ -257,7 +236,10 @@ subcategories:
         stackable: false
         orderable: true
         custom_fields:
-          - name: Add cheese +$1
+          - name: Half-lb carve +$2
+            options: "No|Yes[+2.00]"
+            required: false
+          - name: Add Swiss Cheese +$1
             options: "No|Yes[+1.00]"
             required: false
           - name: Add North Country Bacon +$3
@@ -273,25 +255,19 @@ subcategories:
         stackable: false
         orderable: true
         custom_fields:
-          - name: Add cheese +$1
-            options: "No|Yes[+1.00]"
-            required: false
           - name: Add North Country Bacon +$3
             options: "No|Yes[+3.00]"
             required: false
           - name: Add 1/2 avocado +$2
             options: "No|Yes[+2.00]"
             required: false
-      - name: Tomato Parmigiano
-        description: Fried heirloom tomato, mozzarella, marinara, basil
+      - name: Fried Green Tomato
+        description: Marinara, eggplant caponata, mozzarella
         price: 9.00
         image_path:
         stackable: false
         orderable: true
         custom_fields:
-          - name: Add cheese +$1
-            options: "No|Yes[+1.00]"
-            required: false
           - name: Add North Country Bacon +$3
             options: "No|Yes[+3.00]"
             required: false
@@ -305,9 +281,6 @@ subcategories:
         stackable: false
         orderable: true
         custom_fields:
-          - name: Add cheese +$1
-            options: "No|Yes[+1.00]"
-            required: false
           - name: Add North Country Bacon +$3
             options: "No|Yes[+3.00]"
             required: false
@@ -321,9 +294,6 @@ subcategories:
         stackable: false
         orderable: true
         custom_fields:
-          - name: Add cheese +$1
-            options: "No|Yes[+1.00]"
-            required: false
           - name: Add North Country Bacon +$3
             options: "No|Yes[+3.00]"
             required: false
@@ -337,9 +307,6 @@ subcategories:
         stackable: false
         orderable: true
         custom_fields:
-          - name: Add cheese +$1
-            options: "No|Yes[+1.00]"
-            required: false
           - name: Add North Country Bacon +$3
             options: "No|Yes[+3.00]"
             required: false
@@ -356,12 +323,6 @@ subcategories:
           - name: Add meatball +$2
             options: "No|Yes[+2.00]"
             required: false
-      - name: Pheasant Sausage
-        description: Black lentils, corn poblano rajas
-        price: 9.00
-        image_path:
-        stackable: true
-        orderable: true
       - name: Bison Chili
         description: Onions, cheddar, sour cream, Texas Toast
         price: 12.00
@@ -377,7 +338,7 @@ subcategories:
         stackable: true
         orderable: true
       - name: Chocolate Tort
-        description: Black n blue sauce, maple whipped cream
+        description: Black n Blue sauce, maple whipped cream
         price: 7.00
         image_path:
         stackable: true
