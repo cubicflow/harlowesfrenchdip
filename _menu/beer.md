@@ -7,10 +7,10 @@ is_alcohol: true
 subcategories:
   - name: On Tap
     items:
-      - name: Beachwood BBQ Brewing Citraholic
-        abv: 7.1%
+      - name: Beachwood BBQ Melrose Imperiale
+        abv: 9%
         origin: Long Beach, CA
-        description: Citra Hopped IPA
+        description: Double IPA
         price: $9 - 16oz
         image_path:
       - name: Bear Republic Peter Brown Tribute Ale
@@ -19,41 +19,41 @@ subcategories:
         description: Brown Ale
         price: $7 - 16oz
         image_path:
-      - name: Craftsman Brewing Co. 1903
-        abv: 5.5%
+      - name: Craftsman Brewing Co. Acorn Saison
+        abv: 7.2%
         origin: Pasadena, CA
-        description: Pre-Prohibition Lager
-        price: $7 - 16oz
-        image_path:
-      - name: Eagle Rock Populist IPA
-        abv: 7%
-        origin: Long Beach, CA
-        description: West Coast Style IPA
-        price: $9 - 16oz
+        description: Autumn Dark Saison
+        price: $7 - 12oz
         image_path:
       - name: Mother Earth Sintax
         abv: 8.1%
         origin: Vista, CA
         description: Imperial Peanut Butter Stout
-        price: $8 - 12oz
+        price: $7 - 16oz
+        image_path:
+      - name: Mumford Brewing DTLA
+        abv: 7.1%
+        origin: Los Angeles, CA
+        description: IPA
+        price: $9 - 16oz
         image_path:
       - name: Phantom Carriage Muis
-        abv: 5%
+        abv: 6.75%
         origin: Carson, CA
         description: 100% Brett Blonde
-        price: $9 - 12oz
+        price: $8 - 12oz
         image_path:
       - name: The Bruery Loakal Red
-        abv: 5%
+        abv: 6.7%
         origin: Placentia, CA
         description: 75% Red Ale 25% Ale Aged in Oak
         price: $8 - 12oz
         image_path:
       - name: Van Steenberg Van De Garre
-        abv: 9%
+        abv: 10.5%
         origin: Lindenlaan, Belgium
         description: Belgian Tripel
-        price: $9 - 12oz
+        price: $10 - 12oz
         image_path:
   - name: Bottles
     items:
