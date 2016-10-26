@@ -19,6 +19,12 @@ subcategories:
         description: Brown Ale
         price: $7 - 16oz
         image_path:
+      - name: Chimay Cinq Cents
+        abv: 8%
+        origin: Baileux, Belgium
+        description: (White) Belgian Tripel
+        price: $11 - 12oz
+        image_path:
       - name: Craftsman Brewing Co. Acorn Saison
         abv: 7.2%
         origin: Pasadena, CA
@@ -31,10 +37,10 @@ subcategories:
         description: Imperial Peanut Butter Stout
         price: $7 - 16oz
         image_path:
-      - name: Mumford Brewing DTLA
-        abv: 7.1%
+      - name: Mumford Brewing Trust Fall
+        abv: 7.5%
         origin: Los Angeles, CA
-        description: IPA
+        description: NE Style Unfiltered IPA
         price: $9 - 16oz
         image_path:
       - name: Phantom Carriage Muis
@@ -48,12 +54,6 @@ subcategories:
         origin: Placentia, CA
         description: 75% Red Ale 25% Ale Aged in Oak
         price: $8 - 12oz
-        image_path:
-      - name: Van Steenberg Van De Garre
-        abv: 10.5%
-        origin: Lindenlaan, Belgium
-        description: Belgian Tripel
-        price: $10 - 12oz
         image_path:
   - name: Bottles
     items:
