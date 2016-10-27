@@ -66,7 +66,7 @@ subcategories:
   - name: Sides
     items:
       - name: Salt Brine Kennebec Fries
-        description: With house ketchup
+        description: House ketchup
         price: 5.00
         image_path:
         stackable: true
@@ -116,25 +116,25 @@ subcategories:
   - name: Salads
     items:
       - name: Simple Greens
-        description: House cut greens, cranberry, sunflower, almonds, grapes, white balsamic vinaigrette
+        description: House cut greens, cranberry, sunflower, almonds, grapes, reggiano, white balsamic vinaigrette
         price: 9.00
         image_path:
         stackable: true
         orderable: true
       - name: Harlowe's Caesar
-        description: House cut romaine, baby kale, fried croutons, reggiano, roasted garlic dressing
+        description: House cut romaine, baby kale, fried croutons, reggiano, roasted garlic Caesar dressing
         price: 10.00
         image_path:
         stackable: true
         orderable: true
       - name: Beet Salad
-        description: Oranges, French Feta, pistachio
+        description: Oranges, French Feta, pistachio, shallot
         price: 11.00
         image_path:
         stackable: true
         orderable: true
       - name: Little Gem "Cobb"
-        description: Bleu cheese, bacon, avocado, egg, tomato, Green Goddess dressing
+        description: Bleu cheese, bacon, avocado, egg, tomato, red onion, Green Goddess dressing
         price: 12.00
         image_path:
         stackable: true
@@ -184,7 +184,7 @@ subcategories:
   - name: The Burger
     items:
       - name: Single Patty
-        description: Proprietary Blend of chuck, short rib, and brisket. 5.5oz patties. Served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun. Add Cheese +$1. Veggie Patty available upon request
+        description: Proprietary Blend of chuck, short rib, and brisket. 5.5oz patties. Served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun. Add cheese +$1. Veggie patty available upon request
         price: 10.00
         image_path:
         stackable: false
@@ -217,7 +217,7 @@ subcategories:
   - name: Signatures
     items:
       - name: Slow Braised BBQ Short Rib
-        description: Choice of slaw, BBQ sauce
+        description: Red cabbage slaw, BBQ sauce
         price: 12.00
         image_path:
         stackable: false
@@ -230,7 +230,7 @@ subcategories:
             options: "No|Yes[+2.00]"
             required: false
       - name: Pastrami
-        description: Mustard, house pickle, rye. Add $2 for half lb.
+        description: Mustard, house pickle, rye bread. Add $2 for half lb. Add $1 for Swiss Cheese
         price: 12.00
         image_path:
         stackable: false
@@ -249,7 +249,7 @@ subcategories:
             options: "No|Yes[+2.00]"
             required: false
       - name: Pickle Brine Fried Chicken
-        description: Coleslaw, buttermilk aioli, pickles, sesame bun
+        description: Coleslaw, buttermilk aioli, pickles, tomato, sesame bun
         price: 10.00
         image_path:
         stackable: false
@@ -314,7 +314,7 @@ subcategories:
             options: "No|Yes[+2.00]"
             required: false
       - name: Spaghetti and Meatballs
-        description: Marinara sauce, Reggiano. Add meatball $2
+        description: Marinara sauce, Reggiano. Add extra meatball $2
         price: 10.00
         image_path:
         stackable: false
@@ -337,14 +337,14 @@ subcategories:
         image_path:
         stackable: true
         orderable: true
-      - name: Chocolate Tort
-        description: Black n Blue sauce, maple whipped cream
+      - name: Bread Pudding
+        description: Vanilla bean gelato, salted caramel, candied hazelnuts
         price: 7.00
         image_path:
         stackable: true
         orderable: true
-      - name: Bread Pudding
-        description: Vanilla bean gelato, salted caramel, candied hazelnuts
+      - name: Chocolate Tort
+        description: Black n Blue sauce, maple whipped cream
         price: 7.00
         image_path:
         stackable: true
