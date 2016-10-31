@@ -7,10 +7,16 @@ is_alcohol: true
 subcategories:
   - name: On Tap
     items:
+      - name: Alpine Beer Co. Duet
+        abv: 7%
+        origin: Alpine, CA
+        description: West Coast IPA
+        price: $9 - 16oz
+        image_path:
       - name: Beachwood BBQ Melrose Imperiale
         abv: 9%
         origin: Long Beach, CA
-        description: Double IPA
+        description: DIPA
         price: $9 - 16oz
         image_path:
       - name: Bear Republic Peter Brown Tribute Ale
@@ -19,17 +25,17 @@ subcategories:
         description: Brown Ale
         price: $7 - 16oz
         image_path:
-      - name: Chimay Cinq Cents
-        abv: 8%
-        origin: Baileux, Belgium
-        description: (White) Belgian Tripel
-        price: $11 - 12oz
-        image_path:
       - name: Craftsman Brewing Co. Acorn Saison
         abv: 7.2%
         origin: Pasadena, CA
         description: Autumn Dark Saison
         price: $7 - 12oz
+        image_path:
+      - name: Craftsman Brewing Co. Old California Sunset
+        abv: 6.5%
+        origin: Pasadena, CA
+        description: Wild Ale
+        price: $9 - 12oz
         image_path:
       - name: Mother Earth Sintax
         abv: 8.1%
@@ -37,23 +43,17 @@ subcategories:
         description: Imperial Peanut Butter Stout
         price: $7 - 16oz
         image_path:
-      - name: Mumford Brewing Trust Fall
-        abv: 7.5%
-        origin: Los Angeles, CA
-        description: NE Style Unfiltered IPA
-        price: $9 - 16oz
-        image_path:
-      - name: Phantom Carriage Muis
-        abv: 6.75%
-        origin: Carson, CA
-        description: 100% Brett Blonde
-        price: $8 - 12oz
-        image_path:
       - name: The Bruery Loakal Red
         abv: 6.7%
         origin: Placentia, CA
         description: 75% Red Ale 25% Ale Aged in Oak
         price: $8 - 12oz
+        image_path:
+      - name: Van Steenberge Van De Garre
+        abv: 10.5%
+        origin: Lindenlaan, Belgium
+        description: Belgian Tripel
+        price: $11 - 12oz
         image_path:
   - name: Bottles
     items:
