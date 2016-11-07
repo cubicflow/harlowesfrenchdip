@@ -7,23 +7,11 @@ is_alcohol: true
 subcategories:
   - name: On Tap
     items:
-      - name: Alpine Beer Co. Duet
-        abv: 7%
-        origin: Alpine, CA
-        description: West Coast IPA
-        price: $9 - 16oz
-        image_path:
       - name: Beachwood BBQ Melrose Imperiale
         abv: 9%
         origin: Long Beach, CA
         description: DIPA
         price: $9 - 16oz
-        image_path:
-      - name: Bear Republic Peter Brown Tribute Ale
-        abv: 6%
-        origin: Healdsburg, CA
-        description: Brown Ale
-        price: $7 - 16oz
         image_path:
       - name: Craftsman Brewing Co. Acorn Saison
         abv: 7.2%
@@ -31,11 +19,11 @@ subcategories:
         description: Autumn Dark Saison
         price: $7 - 12oz
         image_path:
-      - name: Craftsman Brewing Co. Old California Sunset
-        abv: 6.5%
-        origin: Pasadena, CA
-        description: Wild Ale
-        price: $9 - 12oz
+      - name: Modern Times Fruitlands
+        abv: 4.8%
+        origin: San Diego, CA
+        description: Gose w/ Blood Orange and Hibiscus
+        price: $7 - 12oz
         image_path:
       - name: Mother Earth Sintax
         abv: 8.1%
@@ -43,17 +31,29 @@ subcategories:
         description: Imperial Peanut Butter Stout
         price: $7 - 16oz
         image_path:
+      - name: Mumford Brewing Skidrokyo
+        abv: 5.7%
+        origin: Los Angeles, CA
+        description: Porter with Madagascar Vanilla
+        price: $7 - 16oz
+        image_path:
+      - name: Ommegang Game of Thrones Valar Dohaeris
+        abv: 9%
+        origin: Coopertown, NY
+        description: Belgian Tripel
+        price: $7 - 12oz
+        image_path:
+      - name: Phantom Carriage Fog Island
+        abv: 5.7%
+        origin: Carson, CA
+        description: Unfiltered Mosaic Pale Ale
+        price: $9 - 16oz
+        image_path:
       - name: The Bruery Loakal Red
         abv: 6.7%
         origin: Placentia, CA
         description: 75% Red Ale 25% Ale Aged in Oak
         price: $8 - 12oz
-        image_path:
-      - name: Van Steenberge Van De Garre
-        abv: 10.5%
-        origin: Lindenlaan, Belgium
-        description: Belgian Tripel
-        price: $11 - 12oz
         image_path:
   - name: Bottles
     items:
