@@ -13,11 +13,11 @@ subcategories:
         description: DIPA
         price: $9 - 16oz
         image_path:
-      - name: Craftsman Brewing Co. Acorn Saison
-        abv: 7.2%
+      - name: Craftsman Brewing Co. 1903
+        abv: 5.6%
         origin: Pasadena, CA
-        description: Autumn Dark Saison
-        price: $7 - 12oz
+        description: Pre-Prohibition Style Lager
+        price: $7 - 16oz
         image_path:
       - name: Modern Times Fruitlands
         abv: 4.8%
