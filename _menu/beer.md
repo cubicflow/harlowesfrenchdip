@@ -7,11 +7,11 @@ is_alcohol: true
 subcategories:
   - name: On Tap
     items:
-      - name: Beachwood BBQ Melrose Imperiale
-        abv: 9%
-        origin: Long Beach, CA
-        description: DIPA
-        price: $9 - 16oz
+      - name: Almanac Mandarina Farmhouse Ale
+        abv: 4.3%
+        origin: San Francisco, CA
+        description: Saison w/ Tangerines
+        price: $7 - 12oz
         image_path:
       - name: Craftsman Brewing Co. 1903
         abv: 5.6%
@@ -19,11 +19,11 @@ subcategories:
         description: Pre-Prohibition Style Lager
         price: $7 - 16oz
         image_path:
-      - name: Modern Times Fruitlands
-        abv: 4.8%
-        origin: San Diego, CA
-        description: Gose w/ Blood Orange and Hibiscus
-        price: $7 - 12oz
+      - name: Mother Earth Boo Koo
+        abv: 6.5%
+        origin: Vista, CA
+        description: American IPA
+        price: $7 - 16oz
         image_path:
       - name: Mother Earth Sintax
         abv: 8.1%
@@ -37,23 +37,23 @@ subcategories:
         description: Porter with Madagascar Vanilla
         price: $7 - 16oz
         image_path:
-      - name: Ommegang Game of Thrones Valar Dohaeris
-        abv: 9%
-        origin: Coopertown, NY
-        description: Belgian Tripel
-        price: $7 - 12oz
-        image_path:
-      - name: Phantom Carriage Fog Island
-        abv: 5.7%
+      - name: Phantom Carriage Straight Outta Carson
+        abv: 7%
         origin: Carson, CA
-        description: Unfiltered Mosaic Pale Ale
+        description: American IPA
         price: $9 - 16oz
         image_path:
-      - name: The Bruery Loakal Red
-        abv: 6.7%
-        origin: Placentia, CA
-        description: 75% Red Ale 25% Ale Aged in Oak
+      - name: Sanctum Brewing Co.
+        abv: 10%
+        origin: Pomona, CA
+        description: Belgian Golden Ale w/ Tangerine and Elderflower
         price: $8 - 12oz
+        image_path:
+      - name: The Bruery Autumn Maple
+        abv: 10%
+        origin: Placentia, CA
+        description: Pumpkin Belgian Brown Ale
+        price: $9 - 12oz
         image_path:
   - name: Bottles
     items:
