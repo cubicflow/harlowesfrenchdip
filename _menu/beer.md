@@ -7,11 +7,11 @@ is_alcohol: true
 subcategories:
   - name: On Tap
     items:
-      - name: Almanac Mandarina Farmhouse Ale
-        abv: 4.3%
+      - name: Almanac Farmer's Reserve Nectarine
+        abv: 7%
         origin: San Francisco, CA
-        description: Saison w/ Tangerines
-        price: $7 - 12oz
+        description: Sour Ale
+        price: $9 - 7oz
         image_path:
       - name: Craftsman Brewing Co. 1903
         abv: 5.6%
@@ -19,13 +19,13 @@ subcategories:
         description: Pre-Prohibition Style Lager
         price: $7 - 16oz
         image_path:
-      - name: Mother Earth Boo Koo
-        abv: 6.5%
-        origin: Vista, CA
-        description: American IPA
+      - name: Mike Hess Habitus
+        abv: 8%
+        origin: San Diego, CA
+        description: Rye Double IPA
         price: $7 - 16oz
         image_path:
-      - name: Mother Earth Sintax
+      - name: Mother Earth Sin-Tax
         abv: 8.1%
         origin: Vista, CA
         description: Imperial Peanut Butter Stout
