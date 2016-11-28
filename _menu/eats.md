@@ -115,18 +115,26 @@ subcategories:
         orderable: true
   - name: Salads
     items:
-      - name: Simple Greens
-        description: House cut greens, cranberry, sunflower, almonds, grapes, reggiano, white balsamic vinaigrette
-        price: 9.00
+      - name: Simple Greens (half portion)
+        description: House cut greens, cranberry, sunflower, almonds, grapes, reggiano, white balsamic vinaigrette. Whole portion +$5
+        price: 4.00
         image_path:
-        stackable: true
+        stackable: false
         orderable: true
-      - name: Harlowe's Caesar
-        description: House cut romaine, baby kale, fried croutons, reggiano, roasted garlic Caesar dressing
-        price: 10.00
+        custom_fields:
+          - name: Whole portion +$5
+            options: "No|Yes[+5.00]"
+            required: false
+      - name: Harlowe's Caesar (half portion)
+        description: House cut romaine, baby kale, fried croutons, reggiano, roasted garlic Caesar dressing. Whole portion +$6
+        price: 4.00
         image_path:
-        stackable: true
+        stackable: false
         orderable: true
+        custom_fields:
+          - name: Whole portion +$6
+            options: "No|Yes[+6.00]"
+            required: false
       - name: Beet Salad
         description: Oranges, French Feta, pistachio, shallot
         price: 11.00
