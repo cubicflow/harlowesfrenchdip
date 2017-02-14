@@ -5,148 +5,6 @@ sidebar_order: 1
 is_public: true
 is_alcohol: false
 subcategories:
-  - name: Oysters
-    items:
-      - name: Oysters, Raw (6)
-        description: Dozen Oysters $29
-        price: 16.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Dozen Oysters +$13
-            options: "No|Yes[+13.00]"
-            required: false
-      - name: Oysters, Fried (6)
-        description: Dozen Oysters $29
-        price: 16.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Dozen Oysters +$13
-            options: "No|Yes[+13.00]"
-            required: false
-  - name: Bar Bites
-    items:
-      - name: Shrimp Cocktail
-        description: House Cocktail Sauce, cucumber, red onion, avocado
-        price: 16.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Dozen Shrimp +$13
-            options: "No|Yes[+13.00]"
-            required: false
-      - name: Fried Chicken Wings
-        description: Sweet and Spicy sauce
-        price: 6.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Beer Cheese
-        description: Fried garlic bread mops
-        price: 8.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Harlowe's Texas Toast
-        description: Bone marrow, garlic, parmesan, parsley
-        price: 4.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Smokey Deviled Eggs
-        description: “La Fin du Mustard”,  shallot, chives
-        price: 4.00
-        image_path:
-        stackable: true
-        orderable: true
-  - name: Sides
-    items:
-      - name: Salt Brine Kennebec Fries
-        description: House ketchup
-        price: 5.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Garnet Yam Fries
-        description: Soy caramel, ginger salt
-        price: 5.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Yukon Potato Salad
-        description:
-        price: 3.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Red Cabbage Slaw
-        description:
-        price: 3.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Bleu Cheese Slaw
-        description:
-        price: 3.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Fried Onions w/ BBQ Sauce
-        description:
-        price: 5.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: House Dill Pickles
-        description:
-        price: 2.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Bread & Butter Pickles
-        description:
-        price: 2.00
-        image_path:
-        stackable: true
-        orderable: true
-  - name: Salads
-    items:
-      - name: Simple Greens (half portion)
-        description: House cut greens, cranberry, sunflower, almonds, grapes, reggiano, white balsamic vinaigrette. Whole portion +$5
-        price: 4.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Whole portion +$5
-            options: "No|Yes[+5.00]"
-            required: false
-      - name: Harlowe's Caesar (half portion)
-        description: House cut romaine, baby kale, fried croutons, reggiano, roasted garlic Caesar dressing. Whole portion +$6
-        price: 4.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Whole portion +$6
-            options: "No|Yes[+6.00]"
-            required: false
-      - name: Beet Salad
-        description: Oranges, French Feta, pistachio, shallot
-        price: 11.00
-        image_path:
-        stackable: true
-        orderable: true
-      - name: Little Gem "Cobb"
-        description: Bleu cheese, bacon, avocado, egg, tomato, red onion, Green Goddess dressing
-        price: 12.00
-        image_path:
-        stackable: true
-        orderable: true
   - name: The Dips
     items:
       - name: The Beef Dip
@@ -334,6 +192,148 @@ subcategories:
       - name: Bison Chili
         description: Onions, cheddar, sour cream, Texas Toast
         price: 12.00
+        image_path:
+        stackable: true
+        orderable: true      
+  - name: Salads
+    items:
+      - name: Simple Greens (half portion)
+        description: House cut greens, cranberry, sunflower, almonds, grapes, reggiano, white balsamic vinaigrette. Whole portion +$5
+        price: 4.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Whole portion +$5
+            options: "No|Yes[+5.00]"
+            required: false
+      - name: Harlowe's Caesar (half portion)
+        description: House cut romaine, baby kale, fried croutons, reggiano, roasted garlic Caesar dressing. Whole portion +$6
+        price: 4.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Whole portion +$6
+            options: "No|Yes[+6.00]"
+            required: false
+      - name: Beet Salad
+        description: Oranges, French Feta, pistachio, shallot
+        price: 11.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Little Gem "Cobb"
+        description: Bleu cheese, bacon, avocado, egg, tomato, red onion, Green Goddess dressing
+        price: 12.00
+        image_path:
+        stackable: true
+        orderable: true
+  - name: Oysters
+    items:
+      - name: Oysters, Raw (6)
+        description: Dozen Oysters $29
+        price: 16.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Dozen Oysters +$13
+            options: "No|Yes[+13.00]"
+            required: false
+      - name: Oysters, Fried (6)
+        description: Dozen Oysters $29
+        price: 16.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Dozen Oysters +$13
+            options: "No|Yes[+13.00]"
+            required: false
+  - name: Bar Bites
+    items:
+      - name: Shrimp Cocktail
+        description: House Cocktail Sauce, cucumber, red onion, avocado
+        price: 16.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Dozen Shrimp +$13
+            options: "No|Yes[+13.00]"
+            required: false
+      - name: Fried Chicken Wings
+        description: Sweet and Spicy sauce
+        price: 6.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Beer Cheese
+        description: Fried garlic bread mops
+        price: 8.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Harlowe's Texas Toast
+        description: Bone marrow, garlic, parmesan, parsley
+        price: 4.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Smokey Deviled Eggs
+        description: “La Fin du Mustard”,  shallot, chives
+        price: 4.00
+        image_path:
+        stackable: true
+        orderable: true
+  - name: Sides
+    items:
+      - name: Salt Brine Kennebec Fries
+        description: House ketchup
+        price: 5.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Garnet Yam Fries
+        description: Soy caramel, ginger salt
+        price: 5.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Yukon Potato Salad
+        description:
+        price: 3.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Red Cabbage Slaw
+        description:
+        price: 3.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Bleu Cheese Slaw
+        description:
+        price: 3.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Fried Onions w/ BBQ Sauce
+        description:
+        price: 5.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: House Dill Pickles
+        description:
+        price: 2.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Bread & Butter Pickles
+        description:
+        price: 2.00
         image_path:
         stackable: true
         orderable: true
