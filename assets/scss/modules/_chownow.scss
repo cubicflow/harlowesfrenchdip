@@ -1,0 +1,41 @@
+.fixed-action-bar {
+  position: fixed;
+  bottom: 0px;
+  margin: 0px auto;
+  z-index: 1998;
+  background-color: transparent;
+  height: 41px;
+  width: 100%;
+}
+
+.chownow-bar {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 310px;
+  height: 41px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-top: 1px solid transparentize($grey-cool--blue, 0.5);
+  border-left: 1px solid transparentize($grey-cool--blue, 0.5);
+  border-right: 1px solid transparentize($grey-cool--blue, 0.5);
+  box-shadow: 0 -1px 2px 0 rgba(0,0,0,0.10);
+  color: #000000;
+
+  &__anchor {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  &__icon {
+    width: 26px;
+    height: 31px;
+    padding-right: 6px;
+    margin-top: -2px;
+  }
+
+  &__label {
+    color: #000000;
+    margin-top: 6px;
+    display: inline-block;
+  }
+}
