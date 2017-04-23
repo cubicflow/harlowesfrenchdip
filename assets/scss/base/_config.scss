@@ -29,25 +29,35 @@ $gold--lighter: lighten($gold, 30%);
 // Fonts
 // --------------------------------------------------
 @font-face {
-    font-family: Niveau-Light;
-    src: url(../fonts/NiveauGroteskLight.otf);
+    font-family: Knile-Regular;
+    src: url(../fonts/Knile-Regular.otf);
 }
 @font-face {
-    font-family: Niveau-Regular;
-    src: url(../fonts/NiveauGroteskRegular.otf);
+    font-family: Knile-Bold;
+    src: url(../fonts/Knile-Bold.otf);
 }
 @font-face {
-    font-family: Niveau-Bold;
-    src: url(../fonts/NiveauGroteskBold.otf);
+    font-family: Noway-Regular;
+    src: url(../fonts/Noway-Regular.otf);
 }
 @font-face {
-    font-family: Merriam;
-    src: url(../fonts/YWFTMerriam.otf);
+    font-family: Noway-Bold;
+    src: url(../fonts/Noway-Bold.otf);
 }
-$font-family--light: 'Niveau-Light', Helvetica, Roboto, Arial, sans-serif;
-$font-family--regular: 'Niveau-Regular', Helvetica, Roboto, Arial, sans-serif;
-$font-family--bold: 'Niveau-Bold', Helvetica, Roboto, Arial, sans-serif;
-$font-family--alt: 'Merriam', Helvetica, Roboto, Arial, sans-serif;
+@font-face {
+    font-family: Cassannet-Regular;
+    src: url(../fonts/CassannetPlus-Regular.otf);
+}
+@font-face {
+    font-family: Cassannet-Bold;
+    src: url(../fonts/CassannetPlus-Bold.otf);
+}
+$font-family-con--regular: 'Noway-Regular', Helvetica, Roboto, Arial, sans-serif;
+$font-family-con--bold: 'Noway-Bold', Helvetica, Roboto, Arial, sans-serif;
+$font-family--regular: 'Cassannet-Regular', Helvetica, Roboto, Arial, sans-serif;
+$font-family--bold: 'Cassannet-Bold', Helvetica, Roboto, Arial, sans-serif;
+$font-family-slab--regular: 'Knile-Regular', Helvetica, Roboto, Arial, sans-serif;
+$font-family-slab--bold: 'Knile-Bold', Helvetica, Roboto, Arial, sans-serif;
 
 
 //
