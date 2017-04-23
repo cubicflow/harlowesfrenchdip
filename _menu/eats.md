@@ -178,8 +178,8 @@ subcategories:
         image_path:
         stackable: true
         orderable: true
-      - name: Flat Iron Pub Steak (8 oz. Prime)
-        description: Bone marrow butter, sautéed spinach, salt brine fries
+      - name: Flat Iron Pub Steak
+        description: Bone marrow butter, sautéed spinach, salt brine fries. (8 oz. Prime)
         price: 17.00
         image_path:
         stackable: true
