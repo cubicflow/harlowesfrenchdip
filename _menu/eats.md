@@ -50,7 +50,7 @@ subcategories:
   - name: The Burger
     items:
       - name: Single Patty
-        description: Proprietary Blend of chuck, short rib, and brisket. 5.5oz patties. Served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun. Add cheese +$1. Veggie patty available upon request
+        description: Proprietary Blend of chuck, short rib, and brisket. 5.5oz patties. Served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun. Add Cheese +$1. House American, Swiss, cheddar, bleu. Veggie patty available upon request.
         price: 10.00
         image_path:
         stackable: false
@@ -127,8 +127,8 @@ subcategories:
           - name: Add 1/2 avocado +$2
             options: "No|Yes[+2.00]"
             required: false
-      - name: Fried Green Tomato
-        description: Marinara, eggplant caponata, mozzarella
+      - name: Portobello Burger
+        description: Tomato relish, almond pesto, mozzarella
         price: 9.00
         image_path:
         stackable: false
@@ -140,21 +140,8 @@ subcategories:
           - name: Add 1/2 avocado +$2
             options: "No|Yes[+2.00]"
             required: false
-      - name: Shrimp Po' Boy
-        description: Cajun fried shrimp, coleslaw, remoulade
-        price: 13.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Add North Country Bacon +$3
-            options: "No|Yes[+3.00]"
-            required: false
-          - name: Add 1/2 avocado +$2
-            options: "No|Yes[+2.00]"
-            required: false
       - name: Harlowe's Grilled Cheese
-        description: Ciabatta loaf, Harlowe’s American Cheese, sea salt
+        description: Ciabatta, Harlowe’s American cheese, sea salt
         price: 8.00
         image_path:
         stackable: false
@@ -166,8 +153,8 @@ subcategories:
           - name: Add 1/2 avocado +$2
             options: "No|Yes[+2.00]"
             required: false
-      - name: Meatball Marinara
-        description: House beef and pork blend, mozzarella, marinara
+      - name: Old Town BBQ Meatloaf
+        description: Crispy onions, coleslaw, BBQ sauce
         price: 10.00
         image_path:
         stackable: false
@@ -179,25 +166,27 @@ subcategories:
           - name: Add 1/2 avocado +$2
             options: "No|Yes[+2.00]"
             required: false
-      - name: Spaghetti and Meatballs
-        description: Marinara sauce, Reggiano. Add extra meatball $2
-        price: 10.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Add meatball +$2
-            options: "No|Yes[+2.00]"
-            required: false
-      - name: Bison Chili
-        description: Onions, cheddar, sour cream, Texas Toast
-        price: 12.00
+      - name: Spring Pea Linguini
+        description: Asparagus, English peas, sugar snap peas, snow peas, spring garlic parmesan cream
+        price: 13.00
         image_path:
         stackable: true
-        orderable: true      
+        orderable: true
+      - name: Fish 'n' Chips
+        description: Beer battered Alaskan halibut, house tartar sauce, lemon, pea tendril salad, salt brine fries
+        price: 16.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Flat Iron Pub Steak (8 oz. Prime)
+        description: Bone marrow butter, sautéed spinach, salt brine fries
+        price: 17.00
+        image_path:
+        stackable: true
+        orderable: true    
   - name: Salads
     items:
-      - name: Simple Greens (half portion)
+      - name: Simple Greens
         description: House cut greens, cranberry, sunflower, almonds, grapes, reggiano, white balsamic vinaigrette. Whole portion +$5
         price: 4.00
         image_path:
@@ -207,7 +196,7 @@ subcategories:
           - name: Whole portion +$5
             options: "No|Yes[+5.00]"
             required: false
-      - name: Harlowe's Caesar (half portion)
+      - name: Harlowe's Caesar
         description: House cut romaine, baby kale, fried croutons, reggiano, roasted garlic Caesar dressing. Whole portion +$6
         price: 4.00
         image_path:
@@ -217,33 +206,23 @@ subcategories:
           - name: Whole portion +$6
             options: "No|Yes[+6.00]"
             required: false
-      - name: Beet Salad
-        description: Oranges, French Feta, pistachio, shallot
+      - name: Strawberry & Feta
+        description: Spinach, red onion, pistachio, champagne vinaigrette
         price: 11.00
         image_path:
         stackable: true
         orderable: true
-      - name: Little Gem "Cobb"
-        description: Bleu cheese, bacon, avocado, egg, tomato, red onion, Green Goddess dressing
-        price: 12.00
+      - name: Pearl Barley & Bacon
+        description: Frisée, poached egg, Reggiano, sherry vinaigrette
+        price: 11.00
         image_path:
         stackable: true
         orderable: true
   - name: Oysters
     items:
-      - name: Oysters, Raw (6)
-        description: Dozen Oysters $29
-        price: 16.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Dozen Oysters +$13
-            options: "No|Yes[+13.00]"
-            required: false
-      - name: Oysters, Fried (6)
-        description: Dozen Oysters $29
-        price: 16.00
+      - name: Oysters of the Day (half-dozen)
+        description: Dozen Oysters $28
+        price: 15.00
         image_path:
         stackable: false
         orderable: true
@@ -253,28 +232,34 @@ subcategories:
             required: false
   - name: Bar Bites
     items:
-      - name: Shrimp Cocktail
-        description: House Cocktail Sauce, cucumber, red onion, avocado
-        price: 16.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Dozen Shrimp +$13
-            options: "No|Yes[+13.00]"
-            required: false
-      - name: Fried Chicken Wings
-        description: Sweet and Spicy sauce
+      - name: Hummus and Pita
+        description: Parsley Pesto, Feta, Extra Virgin Olive Oil
         price: 6.00
         image_path:
         stackable: true
         orderable: true
-      - name: Beer Cheese
-        description: Fried garlic bread mops
-        price: 8.00
+      - name: Pan Fried Crab Cake
+        description: House tartar sauce, herb salad, lemon
+        price: 11.00
         image_path:
         stackable: true
         orderable: true
+      - name: Fried Chicken Drumsticks
+        description: Buttermilk aioli, barbecue sauce
+        price: 6.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Grilled Asparagus
+        description: Anchovy garlic butter. +$2 for poached egg
+        price: 8.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Poached Egg +$2
+            options: "No|Yes[+2.00]"
+            required: false
       - name: Harlowe's Texas Toast
         description: Bone marrow, garlic, parmesan, parsley
         price: 4.00
@@ -282,7 +267,7 @@ subcategories:
         stackable: true
         orderable: true
       - name: Smokey Deviled Eggs
-        description: “La Fin du Mustard”,  shallot, chives
+        description: “La Fin du Mustard”, shallot, chives
         price: 4.00
         image_path:
         stackable: true
@@ -339,22 +324,26 @@ subcategories:
         orderable: true
   - name: Dessert
     items:
-      - name: Beignets
-        description: Cinnamon sugar, caramel and chocolate sauces
-        price: 7.00
+      - name: Little Donuts
+        description: Cinnamon sugar, caramel sauce
+        price: 6.00
         image_path:
         stackable: true
         orderable: true
       - name: Bread Pudding
-        description: Vanilla bean gelato, salted caramel, candied hazelnuts
-        price: 7.00
+        description: Vanilla ice cream, caramel sauce, hazelnuts
+        price: 6.00
         image_path:
         stackable: true
         orderable: true
-      - name: Chocolate Tort
-        description: Black n Blue sauce, maple whipped cream
-        price: 7.00
+      - name: House Pecan Pie
+        description: A la mode, +$2
+        price: 6.00
         image_path:
-        stackable: true
+        stackable: false
         orderable: true
+        custom_fields:
+          - name: A la mode +$2
+            options: "No|Yes[+2.00]"
+            required: false
 ---
