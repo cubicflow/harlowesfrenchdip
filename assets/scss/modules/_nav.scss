@@ -12,7 +12,7 @@
   }
 
   &__container {
-    // position: relative;
+    position: relative;
     @include container();
   }
 
@@ -152,11 +152,13 @@
 
       .nav__expand__line--top {
         top: 19px;
+        left: 9px;
         transform: rotate(45deg);
         background-color: $gold;
       }
       .nav__expand__line--bottom {
         top: 19px;
+        left: 9px;
         transform: rotate(-45deg);
         background-color: $gold;
       }
@@ -167,8 +169,8 @@
       position: relative;
       width: 40px;
       height: 40px;
-      // border-radius: 20px;
-      // border: 1px solid fade-out($grey-warm--medium, 0.6);
+      border-radius: 20px;
+      border: 1px solid fade-out($grey-warm--medium, 0.6);
     }
 
     &__line {
