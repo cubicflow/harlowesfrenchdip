@@ -35,7 +35,7 @@
 
 
 @mixin subcategory-title() {
-  font-size: $font-size--medium;
+  @include font-size--medium;
   font-family: $font-family--regular;
   line-height: 1.5;
   padding-bottom: 10px;

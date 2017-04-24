@@ -103,26 +103,35 @@ $header-font-family: $font-family-h--bold;
 // $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 44,
-    'h2': 32,
-    'h3': 24,
-    'h4': 20,
+    'h1': 22,
+    'h2': 18,
+    'h3': 14,
 
+    'h4': 20,
     'h5': 17,
     'h6': 16,
   ),
   medium: (
-    'h1': 48,
-    'h2': 36,
-    'h3': 28,
-    'h4': 24,
+    'h1': 22,
+    'h2': 18,
+    'h3': 14,
 
+    'h4': 24,
+    'h5': 20,
+    'h6': 16,
+  ),
+  large: (
+    'h1': 28,
+    'h2': 21,
+    'h3': 14,
+
+    'h4': 24,
     'h5': 20,
     'h6': 16,
   ),
 );
 // $header-color: inherit;
-$header-lineheight: 1.2;
+$header-lineheight: 1.25;
 $header-margin-bottom: 0.625em;
 // $header-text-rendering: optimizeLegibility;
 // $small-font-size: 80%;

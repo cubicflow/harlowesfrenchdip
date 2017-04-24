@@ -100,10 +100,10 @@ $font-family-con--bold: 'Noway-Bold', Helvetica, Roboto, Arial, sans-serif;
 // --------------------------------------------------
 $font-size--xsmall: 13px;
 $font-size--small: 14px;
-$font-size--medium: 20px;
+$font-size--medium: 16px;
 $font-size--large: 24px;
 $font-size--xlarge: 32px;
-$font-size--xxlarge: 44px;
+$font-size--xxlarge: 40px;
 
 
 @mixin font-size--xsmall(){
@@ -111,6 +111,10 @@ $font-size--xxlarge: 44px;
   line-height: 1.5em;
 
   @include breakpoint(medium) {
+    font-size: #{ $font-size--xsmall + 1px };
+  }
+
+  @include breakpoint(large) {
     font-size: #{ $font-size--xsmall + 2px };
   }
 }
@@ -120,12 +124,13 @@ $font-size--xxlarge: 44px;
   line-height: 1.75em;
 
   @include breakpoint(medium) {
-    font-size: #{ $font-size--small + 2px };
+    font-size: #{ $font-size--small + 1px };
   }
 
   @include breakpoint(large) {
-    font-size: #{ $font-size--small + 4px };
+    font-size: #{ $font-size--small + 2px };
   }
+
 }
 
 @mixin font-size--medium(){
@@ -133,8 +138,13 @@ $font-size--xxlarge: 44px;
   line-height: 1.5em;
 
   @include breakpoint(medium) {
+    font-size: #{ $font-size--medium + 2px };
+  }
+
+  @include breakpoint(large) {
     font-size: #{ $font-size--medium + 4px };
   }
+
 }
 
 @mixin font-size--large(){
@@ -142,6 +152,9 @@ $font-size--xxlarge: 44px;
   line-height: 1.4em;
 
   @include breakpoint(medium) {
+    font-size: #{ $font-size--large + 2px };
+  }
+  @include breakpoint(large) {
     font-size: #{ $font-size--large + 4px };
   }
 }
@@ -151,6 +164,10 @@ $font-size--xxlarge: 44px;
   line-height: 1.3em;
 
   @include breakpoint(medium) {
+    font-size: #{ $font-size--xlarge + 2px };
+  }
+
+  @include breakpoint(large) {
     font-size: #{ $font-size--xlarge + 4px };
   }
 }
@@ -160,6 +177,10 @@ $font-size--xxlarge: 44px;
   line-height: 1.2em;
 
   @include breakpoint(medium) {
+    font-size: #{ $font-size--xxlarge + 2px };
+  }
+
+  @include breakpoint(large) {
     font-size: #{ $font-size--xxlarge + 4px };
   }
 }
