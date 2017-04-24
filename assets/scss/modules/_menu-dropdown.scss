@@ -57,7 +57,7 @@
     //transition: opacity 0.5s;
 
     ul {
-      border-top: 2px solid $earth--dark;
+      // border-top: 2px solid $earth--dark;
       margin: 0px 0px;
       padding: 5px 0px 0px 0px;
 
@@ -81,7 +81,7 @@
         height: 8px;
         position: absolute;
         top: 11px;
-        right: 12px;
+        right: 16px;
         z-index: 100000;
         background-image: url(/assets/img/dropdown.svg);
         background-repeat: no-repeat;
