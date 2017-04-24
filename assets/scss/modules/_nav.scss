@@ -1,10 +1,14 @@
 .nav {
   position: relative;
-  height: 80px;
+  height: 76px;
   z-index: 99;
 
+  @include breakpoint(medium) {
+    height: 96px;
+  }
+
   &--solidbg {
-    background-color: $grey-warm--xdark;
+    background-color: $off-white;
   }
 
   &__container {
@@ -14,10 +18,16 @@
 
   &__logo {
     float: left;
+
     img {
       margin-top: 15px;
-      height: 50px;
-      width: 51px;
+      height: 46px;
+      width: 46px;
+
+      @include breakpoint(medium) {
+        margin-top: 25px;
+      }
+
     }
   }
 
@@ -35,12 +45,12 @@
   }
 
   &__links {
-
+    font-family: $font-family-con--regular;
     float: right;
     @include show-for(medium);
 
     ul {
-      margin-top: 10px;
+      margin-top: 16px;
       margin-bottom: 0px;
     }
 
@@ -55,10 +65,10 @@
       }
 
       @include breakpoint(medium) {
-        margin-left: 8px;
+        margin-left: 20px;
       }
       @include breakpoint(large) {
-        margin-left: 15px;
+        margin-left: 25px;
       }
 
 
@@ -76,13 +86,13 @@
 
     a {
       display: block;
-      color: fade-out($cream, 0.6);
+      color: $earth--dark;
       transition: all 0.3s;
       text-transform: uppercase;
       padding-top: 20px;
       padding-bottom: 28px;
       letter-spacing: 1px;
-      font-size: $font-size--xsmall;
+      font-size: 16px;
 
       @include breakpoint(medium) {
         padding-left: 8px;
@@ -93,10 +103,10 @@
 
 
       &:hover {
-        color: $cream;
+        color: $earth;
       }
       &.active {
-        color: $cream;
+        color: $dark;
       }
     }
 
@@ -143,12 +153,12 @@
       .nav__expand__line--top {
         top: 19px;
         transform: rotate(45deg);
-        background-color: $grey-warm--dark;
+        background-color: $white;
       }
       .nav__expand__line--bottom {
         top: 19px;
         transform: rotate(-45deg);
-        background-color: $grey-warm--dark;
+        background-color: $white;
       }
     }
 
@@ -163,7 +173,7 @@
 
     &__line {
 
-      background-color: $cream;
+      background-color: $earth--dark;
       width: 20px;
       height: 1px;
       position: absolute;

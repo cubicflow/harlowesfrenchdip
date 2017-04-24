@@ -39,7 +39,7 @@
     top: 10%;
     max-height: 400px;
     max-width: 500px;
-    background-color: $cream;
+    background-color: $off-white;
     margin: 0px auto;
     position: relative;
     z-index: 1001;
@@ -63,7 +63,7 @@
 
     &__open-time {
       display: block;
-      font-family: $font-family--light;
+      font-family: $font-family--regular;
       font-size: $font-size--xsmall;
     }
   }

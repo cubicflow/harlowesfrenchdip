@@ -1,8 +1,8 @@
 
 .chef-cover {
   width: 100%;
-  background-color: $cream;
-  background-image: url(/assets/img/tile-concrete--light@2x.jpg);
+  background-color: $off-white;
+  // background-image: url(/assets/img/tile-concrete--light@2x.jpg);
   overflow: auto;
 
 
@@ -10,7 +10,7 @@
     @include container-small();
     color: $grey-warm--medium;
     @include font-size--medium();
-    font-family: $font-family--light;
+    font-family: $font-family--regular;
     @include small-cover-top-margin;
     @include small-cover-bottom-margin;
   }
@@ -19,7 +19,7 @@
 
 .chef {
 
-  background-color: $cream;
+  background-color: $off-white;
   background-image: url(/assets/img/tile-concrete--light@2x.jpg);
   overflow: auto;
 
@@ -57,14 +57,14 @@
 
     &__number {
       display: block;
-      font-family: $font-family--light;
+      font-family: $font-family--regular;
       font-size: 64px;
       margin-bottom: 30px;
     }
   }
 
   &__menu {
-    font-family: $font-family--light;
+    font-family: $font-family--regular;
     @include font-size--medium();
     text-align: center;
 

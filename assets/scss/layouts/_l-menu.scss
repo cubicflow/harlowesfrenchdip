@@ -30,10 +30,10 @@
     &__category {
 
       a {
-        @include font-size--xlarge();
+        @include font-size--large();
         line-height: 1em;
-        font-family: $font-family--alt;
-        color: $cream;
+        font-family: $font-family-h--bold;
+        color: $dark;
         display: block;
         margin-bottom: 35px;
 
@@ -48,13 +48,14 @@
 
         a {
           font-size: $font-size--small;
-          font-family: $font-family--regular;
+          font-family: $font-family-h--bold;
+          letter-spacing: 1px;
           display: block;
           margin: 10px 0px 20px 20px;
-          opacity: 0.6;
+          color: $earth--dark;
 
           &:hover {
-            opacity: 1;
+            color: $earth;
           }
         }
       }
@@ -81,6 +82,7 @@
 
   &__subcategory {
     @include grid-row();
+    // margin-top: -2px;
 
     &__title {
       @include subcategory-title();
@@ -89,6 +91,9 @@
     &__item {
       @include grid-column(12, 0px);
       margin-bottom: 40px;
+      &:last-child{
+        margin-bottom: 60px;
+      }
 
       @include breakpoint(large) {
         @include grid-column(6, 0px);
@@ -99,6 +104,9 @@
         &:nth-child(even){
           padding-right: 20px;
           clear: both;
+        }
+        &:last-child{
+          margin-bottom: 72px;
         }
       }
 
@@ -111,7 +119,7 @@
 
       &__photo {
         vertical-align: top;
-        border: 1px solid $cream;
+        border: 1px solid $gold;
         padding: 0px 3px;
         line-height: 17px;
         border-radius: 3px;
@@ -120,7 +128,7 @@
         display: inline-block;
 
         &:hover {
-          background-color: $cream;
+          background-color: $off-white;
           color: $grey-warm--xdark;
           border-color: $grey-warm--xdark;
         }
@@ -128,7 +136,7 @@
 
       &__description {
         font-size: $font-size--xsmall;
-        font-family: $font-family--light;
+        font-family: $font-family--regular;
         margin-bottom: 10px;
       }
 
@@ -156,7 +164,7 @@
         span {
           font-size: 12px;
           font-family: $font-family--regular;
-          color: $cream;
+          color: $off-white;
           padding-right: 10px;
         }
 
@@ -173,7 +181,7 @@
   text-align: center;
   @include font-size--xsmall();
   line-height: 50px;
-  font-family: $font-family--light;
+  font-family: $font-family--regular;
 
   opacity: 0;
   margin-top: 0px;

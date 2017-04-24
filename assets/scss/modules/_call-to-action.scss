@@ -34,7 +34,7 @@
       left: 30px;
       color: $grey_warm__medium;
       @include font-size--xlarge();
-      font-family: $font-family--light;
+      font-family: $font-family--regular;
       background-image: url(/assets/img/go--dark.svg);
       background-repeat: no-repeat;
       background-position: right top 11px;
@@ -135,7 +135,7 @@
       left: 30px;
       color: $grey_warm__medium;
       @include font-size--xlarge();
-      font-family: $font-family--light;
+      font-family: $font-family--regular;
       background-image: url(/assets/img/go--dark.svg);
       background-repeat: no-repeat;
       background-position: right top 11px;

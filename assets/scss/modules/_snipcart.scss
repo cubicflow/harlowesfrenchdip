@@ -30,7 +30,7 @@
     }
 
     #snipcart-sub-content {
-      background: $cream;
+      background: $off-white;
     }
 
     ul#snipcart-steps {
@@ -59,7 +59,7 @@
         }
 
         &.active {
-          background: $cream;
+          background: $off-white;
         }
       }
 
@@ -68,7 +68,7 @@
     // BUTTON BASE STYLES
     a.snipcart-btn, button.snipcart-btn {
       font-family: $font-family--regular;
-      background: $cream;
+      background: $off-white;
       border: 1px solid fade-out($grey-warm--medium, 0.6);
       text-shadow: none;
       box-shadow: none;
@@ -90,7 +90,7 @@
       background: $gold;
       border: none;
       text-shadow: none;
-      color: $cream;
+      color: $off-white;
       letter-spacing: 1px;
       line-height: 40px;
       height: 40px;
@@ -98,10 +98,10 @@
 
       &:hover {
         font-family: $font-family--regular;
-        background: $gold--tint;
+        background: $gold;
         border: none;
         text-shadow: none;
-        color: $cream;
+        color: $off-white;
         letter-spacing: 1px;
         line-height: 40px;
         height: 40px;
@@ -111,7 +111,7 @@
     .snipcart-step {
 
       #snipcart-actions {
-        background: $cream;
+        background: $off-white;
       }
 
     }
@@ -156,9 +156,9 @@
 
       #snipcart-title {
         text-transform: capitalize;
-        font-family: $font-family--alt;
+        font-family: $font-family--bold;
         font-size: $font-size--xlarge;
-        color: $cream;
+        color: $off-white;
         padding-left: 0px;
       }
 
@@ -208,5 +208,5 @@
 // SELECTOR OF DOOM
 // FOR TABLE BACKGROUND COLOR
 .cf-snipcart #snipcart-main-container table#snipcart-items td.snipcart-td-3, #snipcart-main-container table#snipcart-items td.snipcart-td-4, #snipcart-main-container table#snipcart-items td.snipcart-td-5 {
-  background: $cream!important;
+  background: $off-white!important;
 }

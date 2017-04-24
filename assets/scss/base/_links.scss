@@ -2,11 +2,11 @@
 // Links
 // --------------------------------------------------
 a {
-  color: $cream;
+  color: $off-white;
   transition: 0.2s;
 
   &:visited {
-    color: $cream;
+    color: $off-white;
   }
 
   &:hover {
@@ -57,32 +57,32 @@ a {
 
 
   &--fill {
-    background-color: $cream;
+    background-color: $off-white;
     color: $grey-warm--dark;
 
     &.active, &:hover {
-      background-color: darken($cream, 15);
+      background-color: darken($off-white, 15);
       color: $grey-warm--dark;
     }
   }
 
   &--fill-cart {
     background-color: $gold;
-    color: $cream;
+    color: $off-white;
 
     &.active, &:hover {
       background-color: lighten($gold, 10);
-      color: $cream;
+      color: $off-white;
     }
   }
 
   &--outline {
     border: 1px solid fade-out($grey-warm--medium, 0.6);
-    color: $cream;
+    color: $off-white;
 
     &.active, &:hover {
       border: 1px solid $grey-warm--medium;
-      color: $cream;
+      color: $off-white;
     }
   }
   &--outline-alt {

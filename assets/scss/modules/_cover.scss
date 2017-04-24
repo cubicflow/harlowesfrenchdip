@@ -78,7 +78,7 @@
       }
 
       &__tagline {
-        font-family: $font-family--light;
+        font-family: $font-family--regular;
         line-height: 1.25em;
         @include font-size--medium();
         @include show-for(medium);
@@ -91,7 +91,7 @@
         a {
         margin: 15px 8% 15px 8%; // Masthead.svg adds margin above //
         display: inline-block;
-        color: $cream;
+        color: $off-white;
         opacity: 0.6;
         transition: all 0.3s;
 
@@ -132,16 +132,16 @@
         text-align: center;
         font-size: $font-size--xsmall;
         opacity: 0.6;
-        color: $cream;
+        color: $off-white;
         display: block;
 
         &:hover {
-          color: $cream;
+          color: $off-white;
           opacity: 1;
         }
 
         &:visited {
-          color: $cream;
+          color: $off-white;
         }
 
         @include breakpoint(medium) {

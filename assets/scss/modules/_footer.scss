@@ -75,7 +75,7 @@
     }
 
     a {
-      color: $cream;
+      color: $off-white;
       opacity: 0.7;
       display: block;
       margin-bottom: 10px;
@@ -106,7 +106,7 @@
 
   &__etc {
 
-    font-family: $font-family--light;
+    font-family: $font-family--regular;
     width: 100%;
     background-color: $grey-warm--dark;
     padding: 35px 0px 60px 0px;
@@ -117,7 +117,7 @@
       a {
         opacity: 0.7;
         display: block;
-        color: $cream;
+        color: $off-white;
         line-height: 2.5em;
 
         @include breakpoint(medium) {

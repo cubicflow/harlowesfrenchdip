@@ -7,11 +7,11 @@
   position: fixed;
   overflow: scroll;
   z-index: 99;
-  background-color: $beige;
+  background-color: $xdark;
   pointer-events: none;
   @include hide-for(medium);
 
-  transition: all 0.3s;
+  transition: all 0.2s;
 
 
 
@@ -26,6 +26,11 @@
     .nav-expanded__crest {
       opacity: 0;
       pointer-events: none;
+
+      img {
+        height: 46px;
+        width: 46px;
+      }
     }
 
     .nav-expanded__back {
@@ -67,7 +72,7 @@
   &__crest {
     margin-top: 15px;
 
-    transition: opacity 0.3s;
+    transition: opacity 0.2s;
   }
 
   &__back {
@@ -96,7 +101,7 @@
 
         a {
           padding: 3px 0px 3px 0px;
-          font-family: $font-family--alt;
+          font-family: $font-family--bold;
           font-size: $font-size--large;
           color: fade-out($grey-warm--dark, 0.6);
           transition: all 0.2s;

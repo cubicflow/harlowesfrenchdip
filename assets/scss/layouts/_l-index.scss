@@ -4,7 +4,7 @@
 
 
 body {
-  background-image: url(/assets/img/tile-concrete--dark@2x.jpg);
+  // background-image: url(/assets/img/tile-concrete--dark@2x.jpg);
   background-repeat: repeat;
   background-size: 200px 200px;
   min-width: 300px;
@@ -75,7 +75,7 @@ html {
       margin-top: 20px;
 
       font-size: 64px;
-      font-family: $font-family--light;
+      font-family: $font-family--regular;
       line-height: 1em;
 
       @include breakpoint(medium) {

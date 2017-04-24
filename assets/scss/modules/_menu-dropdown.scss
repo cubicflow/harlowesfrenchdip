@@ -1,7 +1,7 @@
 .menu-dropdown {
   background-color: $grey-warm--dark;
   @include font-size--medium();
-  font-family: $font-family--light;
+  font-family: $font-family--regular;
   @include hide-for(medium);
   overflow: hidden;
   position: absolute;
@@ -49,15 +49,15 @@
     //transition: opacity 0.5s;
 
     ul {
-      border-top: 1px solid fade-out($cream, 0.6);
+      border-top: 1px solid fade-out($off-white, 0.6);
       margin: 0px 0px;
       padding: 0px 0px 0px 0px;
     }
 
     &__dropdown {
 
-      font-family: $font-family--alt;
-      color: fade-out($cream, 0.6);
+      font-family: $font-family--bold;
+      color: fade-out($off-white, 0.6);
       @include font-size--xlarge();
       margin-top: 15px;
       position: relative;
@@ -107,9 +107,9 @@
         }
 
         a {
-          color: fade-out($cream, 0.6);
+          color: fade-out($off-white, 0.6);
           &:hover {
-            color: $cream;
+            color: $off-white;
           }
         }
       }

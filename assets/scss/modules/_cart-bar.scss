@@ -42,7 +42,7 @@
     }
 
     &:hover {
-      background-color: $cream;
+      background-color: $off-white;
     }
 
     &__items {
@@ -63,7 +63,7 @@
     height: 50px;
     width: 50%;
     background-color: $gold;
-    color: $cream;
+    color: $off-white;
     display: block;
     transition: all 0.3s;
     letter-spacing: 1px;
@@ -80,7 +80,7 @@
     }
 
     &:hover {
-      background-color: $gold--tint;
+      background-color: $gold;
       color: $white;
     }
 

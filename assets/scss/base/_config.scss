@@ -1,8 +1,7 @@
 //
 // Colors
 // --------------------------------------------------
-$black: #000;
-$white: #fff;
+
 $near-black: #212020;
 
 $grey-warm--xdark: #2C2B2A;
@@ -13,15 +12,25 @@ $grey-cool--green: #ECEEEB;
 $grey-cool--blue: #E1E3E3;
 
 $beige: #E4E1DE;
-$cream: #FAF8F4;
 
 $brick: #7D3029;
 $brick--tint: #87423A;
 $brick--lighter: lighten($brick, 30%);
 
-$gold: #B7A86E;
-$gold--tint: #DDCD8F;
-$gold--lighter: lighten($gold, 30%);
+
+
+// NEW COLORS
+
+$black: #000;
+$white: #fff;
+$off-white: #E8E6E6;
+$snow-white: #F6F6F6;
+$earth: #A5A2A0;     // may not need
+$earth--dark: #8E8A7F;
+$grey: #979797;
+$dark: #2B262F;
+$xdark: #1D191F;
+$gold: #CFAA43;
 
 
 
@@ -30,41 +39,67 @@ $gold--lighter: lighten($gold, 30%);
 // --------------------------------------------------
 @font-face {
     font-family: Knile-Regular;
-    src: url(../fonts/Knile-Regular.otf);
+    src: url('../fonts/knile/knile-regular-webfont.eot');
+	  src: url('../fonts/knile/knile-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	       url('../fonts/knile/knile-regular-webfont.woff') format('woff'),
+	       url('../fonts/knile/knile-regular-webfont.ttf') format('truetype'),
+	       url('../fonts/knile/knile-regular-webfont.svg#webfont') format('svg');
 }
 @font-face {
     font-family: Knile-Bold;
-    src: url(../fonts/Knile-Bold.otf);
+    src: url('../fonts/knile/knile-bold-webfont.eot');
+	  src: url('../fonts/knile/knile-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	       url('../fonts/knile/knile-bold-webfont.woff') format('woff'),
+	       url('../fonts/knile/knile-bold-webfont.ttf') format('truetype'),
+	       url('../fonts/knile/knile-bold-webfont.svg#webfont') format('svg');
 }
 @font-face {
     font-family: Noway-Regular;
-    src: url(../fonts/Noway-Regular.otf);
+    src: url('../fonts/noway/noway-regular-webfont.eot');
+	  src: url('../fonts/noway/noway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	       url('../fonts/noway/noway-regular-webfont.woff') format('woff'),
+	       url('../fonts/noway/noway-regular-webfont.ttf') format('truetype'),
+	       url('../fonts/noway/noway-regular-webfont.svg#webfont') format('svg');
 }
 @font-face {
     font-family: Noway-Bold;
-    src: url(../fonts/Noway-Bold.otf);
+    src: url('../fonts/noway/noway-bold-webfont.eot');
+	  src: url('../fonts/noway/noway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	       url('../fonts/noway/noway-bold-webfont.woff') format('woff'),
+	       url('../fonts/noway/noway-bold-webfont.ttf') format('truetype'),
+	       url('../fonts/noway/noway-bold-webfont.svg#webfont') format('svg');
 }
 @font-face {
     font-family: Cassannet-Regular;
-    src: url(../fonts/CassannetPlus-Regular.otf);
+    src: url('../fonts/cassannet/cassannet_plus_regular-webfont.eot');
+	  src: url('../fonts/cassannet/cassannet_plus_regular-webfont.eot?#iefix') format('embedded-opentype'),
+	       url('../fonts/cassannet/cassannet_plus_regular-webfont.woff') format('woff'),
+	       url('../fonts/cassannet/cassannet_plus_regular-webfont.ttf') format('truetype'),
+	       url('../fonts/cassannet/cassannet_plus_regular-webfont.svg#webfont') format('svg');
 }
 @font-face {
     font-family: Cassannet-Bold;
-    src: url(../fonts/CassannetPlus-Bold.otf);
+    src: url('../fonts/cassannet/cassannet_plus_bold-webfont.eot');
+    src: url('../fonts/cassannet/cassannet_plus_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cassannet/cassannet_plus_bold-webfont.woff') format('woff'),
+         url('../fonts/cassannet/cassannet_plus_bold-webfont.ttf') format('truetype'),
+         url('../fonts/cassannet/cassannet_plus_bold-webfont.svg#webfont') format('svg');
 }
+
+
+$font-family-h--regular: 'Cassannet-Regular', Helvetica, Roboto, Arial, sans-serif;
+$font-family-h--bold: 'Cassannet-Bold', Helvetica, Roboto, Arial, sans-serif;
+$font-family--regular: 'Knile-Regular', Helvetica, Roboto, Arial, sans-serif;
+$font-family--bold: 'Knile-Bold', Helvetica, Roboto, Arial, sans-serif;
 $font-family-con--regular: 'Noway-Regular', Helvetica, Roboto, Arial, sans-serif;
 $font-family-con--bold: 'Noway-Bold', Helvetica, Roboto, Arial, sans-serif;
-$font-family--regular: 'Cassannet-Regular', Helvetica, Roboto, Arial, sans-serif;
-$font-family--bold: 'Cassannet-Bold', Helvetica, Roboto, Arial, sans-serif;
-$font-family-slab--regular: 'Knile-Regular', Helvetica, Roboto, Arial, sans-serif;
-$font-family-slab--bold: 'Knile-Bold', Helvetica, Roboto, Arial, sans-serif;
 
 
 //
 // Font Sizes
 // --------------------------------------------------
-$font-size--xsmall: 14px;
-$font-size--small: 16px;
+$font-size--xsmall: 13px;
+$font-size--small: 14px;
 $font-size--medium: 20px;
 $font-size--large: 24px;
 $font-size--xlarge: 32px;
