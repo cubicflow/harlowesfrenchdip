@@ -1,5 +1,5 @@
 .fact-gallery-heading {
-  @include container();
+  @include container-medium();
   @include small-cover-top-margin();
 
   h3 {
@@ -15,12 +15,12 @@
 .fact-gallery {
 
   &__row {
-    height: 600px;
-    @include container();
+    // height: 600px;
+    // @include container();
     @include grid-row();
     width: 100% !important;
     position: relative;
-    background-color: $earth;
+    // background-color: $earth;
     margin-bottom: 20px;
 
     @include breakpoint(medium) {
@@ -29,38 +29,112 @@
   }
 
   &__col {
-    display: block;
+    display: inline-block;
     position: relative;
-    background-color: $earth--dark;
+    // background-color: $earth--dark;
+    padding: 0px !important;
+    margin-bottom: 60px;
 
-    &--7 {
-      @include grid-column(7);
-      height: 600px;
+    @include breakpoint(medium) {
+      margin-bottom: 80px;
     }
 
-    &--4 {
-      @include grid-column(4);
-      height: 350px;
+    img {
+      display: block;
     }
 
-    &--left {
+    &__badge {
+      margin-top: 20px;
+      padding-top: 1px;
+      height: 24px;
+      width: 24px;
+      border-radius: 12px;
+      background-color: $gold;
+      color: $off-white;
+      text-align: center;
+      font-family: $font-family-h--regular;
+      font-size: 16px;
+      display: inline-block;
+    }
+
+    &__label {
+      display: inline-block;
+      font-family: $font-family-con--regular;
+      @include font-size--small;
+      margin-left: 8px;
+    }
+
+    &--fact1 {
+      @include grid-column(12);
       float: left;
+
+      img {
+        width: 100%;
+      }
+
+      @include breakpoint(medium) {
+        @include grid-column(7);
+        float: left;
+      }
     }
 
-    &--right {
+    &--fact2 {
+      @include grid-column(9);
       float: right;
+
+      img {
+        width: 100%;
+      }
+
+      @include breakpoint(medium) {
+        @include grid-column(4);
+        float: right;
+      }
     }
 
-    &--bottom-left {
-      position: absolute;
-      bottom: 0px;
-      left: 0px;
+    &--fact3 {
+      @include grid-column(9);
+      float: left;
+
+      img {
+        width: 100%;
+      }
+
+      @include breakpoint(medium) {
+        @include grid-column(4);
+        float: left;
+      }
     }
 
-    &--bottom-right {
-      position: absolute;
-      bottom: 0px;
-      right: 0px;
+    &--fact4 {
+      @include grid-column(10);
+      float: right;
+
+      img {
+        width: 100%;
+      }
+
+      @include breakpoint(medium) {
+        @include grid-column(6);
+        float: right;
+      }
     }
+
+    &--spacer {
+      @include grid-column(2);
+      float: left;
+      @include show-for(medium);
+
+      img {
+        width: 100%;
+      }
+
+      @include breakpoint(medium) {
+        @include grid-column(1);
+        float: left;
+      }
+    }
+
+
   }
 }
