@@ -47,7 +47,8 @@
         margin-bottom: 40px;
 
         a {
-          font-size: $font-size--small;
+          @include font-size--small;
+          line-height: 1.0em;
           font-family: $font-family-h--bold;
           letter-spacing: 1px;
           display: block;
