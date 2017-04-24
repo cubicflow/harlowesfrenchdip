@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>buttons / Buttons / social-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="navigation--mobile--ALT" transform="translate(-125.000000, -432.000000)" fill="#A5A2A0">
+            <g id="categories-expanded" transform="translate(15.000000, 15.000000)">
+                <g id="buttons-/-social-facebook" transform="translate(110.000000, 417.000000)">
+                    <path d="M14,0 C6.26818182,0 0,6.26818182 0,14 C0,21.7318182 6.26818182,28 14,28 C21.7318182,28 28,21.7318182 28,14 C28,6.26818182 21.7318182,0 14,0 M14,27 C6.8201,27 1,21.1799 1,14 C1,6.82075 6.8201,1 14,1 C21.1799,1 27,6.82075 27,14 C27,21.1799 21.1799,27 14,27 M15.8776259,10.0062208 L16.9866622,10.0062208 L16.9866622,8 L15.2114038,8 C13.0800267,8 12.3291097,9.00377694 12.3291097,10.6907354 L12.3291097,11.9937792 L11,11.9937792 L11,14 L12.3291097,14 L12.3291097,20 L14.9886629,20 L14.9886629,14 L16.7645882,14 L17,11.9937792 L14.9886629,11.9937792 L14.9919973,10.8340369 C14.9919973,10.2954899 15.0473491,10.0062208 15.8776259,10.0062208 Z" id="facebook"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
