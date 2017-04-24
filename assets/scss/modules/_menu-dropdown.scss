@@ -1,18 +1,26 @@
-.menu-dropdown {
-  background-color: $grey-warm--dark;
-  @include font-size--medium();
-  font-family: $font-family--regular;
+.menu-dropdown-spacer{
+  height: 55px;
   @include hide-for(medium);
+}
+
+.menu-dropdown {
+  @include hide-for(medium);
+
+  background-color: $off-white;
+  font-family: $font-family--bold;
+  @include font-size--medium();
   overflow: hidden;
-  position: absolute;
-  height: calc(60px);
+  height: calc(50px);
   width: 100%;
   z-index: 98;
-  top: 80px;
+  position: absolute;
+  top: 86px;
   transition: height 0.3s;
+  // border-bottom: 1px solid $gold;
+  color: $earth--dark;
 
   &.active{
-    height: calc(100% - 80px);
+    height: calc(100% - 86px);
     overflow: auto;
     position: fixed;
 
@@ -27,8 +35,8 @@
   }
 
   &__button {
-    height: 60px;
-    line-height: 60px;
+    height: 50px;
+    line-height: 50px;
 
     &:before {
       content: "";
@@ -49,16 +57,21 @@
     //transition: opacity 0.5s;
 
     ul {
-      border-top: 1px solid fade-out($off-white, 0.6);
+      border-top: 2px solid $earth--dark;
       margin: 0px 0px;
-      padding: 0px 0px 0px 0px;
+      padding: 5px 0px 0px 0px;
+
+      li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
     }
 
     &__dropdown {
 
-      font-family: $font-family--bold;
-      color: fade-out($off-white, 0.6);
-      @include font-size--xlarge();
+      font-family: $font-family-h--bold;
+      color: $dark;
+      @include font-size--large();
       margin-top: 15px;
       position: relative;
 
@@ -95,21 +108,23 @@
         border-top: 0px;
         padding: 0px;
         pointer-events: none;
-        margin-bottom: 20px;
+        margin-top: 25px;
+        margin-bottom: 30px;
         position: absolute;
         transition: opacity 0.2s;
 
         li {
-          @include font-size--large();
+          @include font-size--medium();
           margin-top: 10px;
           margin-left: 20px;
+          margin-bottom: 0px;
           list-style-type: none;
         }
 
         a {
-          color: fade-out($off-white, 0.6);
+          color: $earth--dark;
           &:hover {
-            color: $off-white;
+            color: $earth;
           }
         }
       }

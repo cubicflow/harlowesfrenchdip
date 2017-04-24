@@ -82,7 +82,6 @@
 
   &__subcategory {
     @include grid-row();
-    // margin-top: -2px;
 
     &__title {
       @include subcategory-title();
