@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
     <title>expand</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M11,9 L11,0 L9,0 L9,9 L0,9 L0,11 L9,11 L9,20 L11,20 L11,11 L20,11 L20,9 L11,9 Z" id="expand" fill="#8E8A7F"></path>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="expand" fill="#8E8A7F" fill-rule="nonzero" points="21 19 21 10 19 10 19 19 10 19 10 21 19 21 19 30 21 30 21 21 30 21 30 19"></polygon>
     </g>
 </svg>

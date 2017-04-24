@@ -49,7 +49,8 @@ a {
   text-align: center;
   text-transform: uppercase;
   min-width: 10em;
-  font-size: $font-size--xsmall;
+  @include font-size--xsmall;
+  font-family: $font-family-con--bold;
   line-height: 1.5em;
   transition: all 0.3s;
 
@@ -95,12 +96,12 @@ a {
   }
 
   &--outline {
-    border: 1px solid fade-out($grey-warm--medium, 0.6);
-    color: $off-white;
+    border: 1px solid $gold;
+    color: $gold;
 
     &.active, &:hover {
-      border: 1px solid $grey-warm--medium;
-      color: $off-white;
+      background-color: $gold;
+      color: $snow-white;
     }
   }
   &--outline-alt {

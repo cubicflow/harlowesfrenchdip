@@ -1,5 +1,6 @@
-.menu-dropdown-spacer{
-  height: 55px;
+.menu-dropdown__spacer {
+  height: 50px;
+  width: 100%;
   @include hide-for(medium);
 }
 
@@ -14,13 +15,12 @@
   width: 100%;
   z-index: 98;
   position: absolute;
-  top: 86px;
+  top: 76px;
   transition: height 0.3s;
-  // border-bottom: 1px solid $gold;
   color: $earth--dark;
 
   &.active{
-    height: calc(100% - 86px);
+    height: calc(100% - 76px);
     overflow: auto;
     position: fixed;
 
@@ -30,23 +30,23 @@
   }
 
   &__container {
-    @include container();
     overflow: none;
   }
 
   &__button {
     height: 50px;
     line-height: 50px;
+    padding-left: 16px;
 
     &:before {
       content: "";
       position: absolute;
-      width: 20px;
-      height: 20px;
-      right: 22px;
-      top: 18px;
+      width: 40px;
+      height: 40px;
+      right: 5px;
+      top: 5px;
       background-image: url(/assets/img/expand.svg);
-      background-position: right center;
+      background-position: center;
       background-repeat: no-repeat;
       transition: all 0.3s;
     }
@@ -54,21 +54,20 @@
 
   &__links {
 
-    //transition: opacity 0.5s;
 
     ul {
-      // border-top: 2px solid $earth--dark;
       margin: 0px 0px;
-      padding: 5px 0px 0px 0px;
+      padding-top: 5px 0px 0px 0px;
+      list-style: none;
 
       li {
         margin-top: 20px;
         margin-bottom: 20px;
+        margin-left: 16px;
       }
     }
 
     &__dropdown {
-
       font-family: $font-family-h--bold;
       color: $dark;
       @include font-size--large();
@@ -77,18 +76,17 @@
 
       &:before {
         content: "";
-        width: 12px;
+        width: 40px;
         height: 8px;
         position: absolute;
         top: 11px;
-        right: 16px;
+        right: 5px;
         z-index: 100000;
         background-image: url(/assets/img/dropdown.svg);
         background-repeat: no-repeat;
         background-position: 0px 0px;
         transition: all 0.3s;
       }
-
 
       &.active {
         ul {
