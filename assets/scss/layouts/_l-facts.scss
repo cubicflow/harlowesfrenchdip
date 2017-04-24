@@ -1,8 +1,66 @@
-.fact-gallery {
+.fact-gallery-heading {
   @include container();
   @include small-cover-top-margin();
 
   h3 {
     color: $earth--dark;
+    margin-bottom: 40px;
+  }
+}
+
+.facts-container {
+  @include container();
+}
+
+.fact-gallery {
+
+  &__row {
+    height: 600px;
+    @include container();
+    @include grid-row();
+    width: 100% !important;
+    position: relative;
+    background-color: $earth;
+    margin-bottom: 20px;
+
+    @include breakpoint(medium) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__col {
+    display: block;
+    position: relative;
+    background-color: $earth--dark;
+
+    &--7 {
+      @include grid-column(7);
+      height: 600px;
+    }
+
+    &--4 {
+      @include grid-column(4);
+      height: 350px;
+    }
+
+    &--left {
+      float: left;
+    }
+
+    &--right {
+      float: right;
+    }
+
+    &--bottom-left {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+    }
+
+    &--bottom-right {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
   }
 }
