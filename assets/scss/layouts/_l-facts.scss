@@ -1,6 +1,8 @@
 .fact-gallery {
+  @include container();
+  @include small-cover-top-margin();
 
-
-
-
+  h3 {
+    color: $earth--dark;
+  }
 }
