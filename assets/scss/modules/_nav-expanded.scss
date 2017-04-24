@@ -88,7 +88,7 @@
 
   &__links {
     border-top: 1px solid $gold;
-    border-bottom: 1px solid $gold;
+    // border-bottom: 1px solid $gold;
     margin-top: 19px;
     padding: 20px 0px 20px 0px;
     transition: opacity 0.5s;
@@ -108,7 +108,7 @@
           display: block;
 
           &:hover {
-            color: $earth;
+            color: $gold;
           }
 
           &.active {
@@ -147,8 +147,13 @@
       padding: 12px;
       margin: 18px 4% 0px 4%;
       display: inline-block;
-      opacity: 1.0;
+      opacity: 0.8;
       transition: all 0.2s;
+
+      img {
+        width: 36px;
+        height: 36px;
+      }
 
       &:hover {
         opacity: 1.0;
@@ -158,8 +163,8 @@
   }
 
   &__more {
-    margin-top: 19px;
-    padding: 20px 0px 20px 0px;
+    // margin-top: 19px;
+    padding: 0px 0px 0px 0px;
     transition: opacity 0.5s;
 
     ul {
@@ -172,7 +177,7 @@
           padding: 3px 0px 3px 0px;
           font-family: $font-family-con--regular;
           font-size: $font-size--medium;
-          color: $off-white;
+          color: $earth--dark;
           transition: all 0.2s;
           display: block;
 
@@ -181,7 +186,7 @@
           }
 
           &.active {
-            color: $gold;
+            color: $earth;
           }
 
         }
