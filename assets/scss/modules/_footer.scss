@@ -109,7 +109,7 @@
     font-family: $font-family--regular;
     width: 100%;
     background-color: $grey-warm--dark;
-    padding: 35px 0px 80px 0px;
+    padding: 35px 0px 60px 0px;
 
     &__container {
       @include container();
@@ -118,7 +118,8 @@
         opacity: 0.7;
         display: block;
         color: $off-white;
-        line-height: 2.5em;
+        line-height: 1.75em;
+        margin-bottom: 20px;
 
         @include breakpoint(medium) {
           display: inline-block;

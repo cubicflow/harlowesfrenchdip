@@ -35,11 +35,12 @@
 
     <nav class="nav__links">
       <ul>
-        <li><a {% if page.url == '/' %} class="active" {% endif %} href="/">Home</a></li>
+        <!-- <li><a {% if page.url == '/' %} class="active" {% endif %} href="/">Home</a></li> -->
+        <li><a {% if page.url == '/facts' %} class="active" {% endif %} href="/facts">Fact Gallery</a></li>
         <li><a {% if page.url == '/menu/eats/' %} class="active" {% endif %} href="/menu/eats">Menu</a></li>
         <li><a {% if page.url == '/menu/beer/' %} class="active" {% endif %} href="/menu/beer">Beer</a></li>
-        <li><a {% if page.url == '/location' %} class="active" {% endif %} href="/location">Location</a></li>
-        <li><a {% if page.url == '/gallery' %} class="active" {% endif %} href="/gallery">Gallery</a></li>
+        <li><a {% if page.url == '/events' %} class="active" {% endif %} href="/events">Events</a></li>
+        <li><a {% if page.url == '/gallery' %} class="active" {% endif %} href="/gallery">More</a></li>
       </ul>
     </nav>
 
