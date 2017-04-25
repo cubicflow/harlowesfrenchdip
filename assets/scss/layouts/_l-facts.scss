@@ -1,4 +1,4 @@
-.fact-gallery-heading {
+.facts-grid-heading {
   @include container-medium();
   @include small-cover-top-margin();
 
@@ -12,7 +12,7 @@
   @include container();
 }
 
-.fact-gallery {
+.facts-grid {
 
   &__row {
     // height: 600px;
