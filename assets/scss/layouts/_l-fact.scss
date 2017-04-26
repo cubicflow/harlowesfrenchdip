@@ -49,10 +49,13 @@
     &--textcontent {
       @include grid-column(12);
       float: left;
+      text-align: center;
+
 
       @include breakpoint(medium) {
         @include grid-column(4);
         float: left;
+        text-align: left;
         padding-right: 30px !important;
       }
 
