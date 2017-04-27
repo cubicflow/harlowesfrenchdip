@@ -3,6 +3,7 @@ permalink: /
 layout: index
 title: Homepage
 show_call_to_action: false
+show_chownow: true
 ---
 
 <header class="homepage-cover cf-responsive">

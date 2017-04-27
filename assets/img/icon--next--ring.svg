@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon--next--ring</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facts__modal__navigation__mobile" transform="translate(-8.000000, -20.000000)">
+            <g id="icon--next--ring">
+                <g transform="translate(8.000000, 20.000000)">
+                    <g transform="translate(14.000000, 14.000000) scale(-1, 1) translate(-14.000000, -14.000000) ">
+                        <path d="M14,0 C6.26818182,0 0,6.26818182 0,14 C0,21.7318182 6.26818182,28 14,28 C21.7318182,28 28,21.7318182 28,14 C28,6.26818182 21.7318182,0 14,0 L14,0 Z" id="ring" fill="#2B262F"></path>
+                        <path d="M17.4683892,7.98245534 C17.5875118,7.89906949 17.5,7.85271916 17.5,8.00684547 L17.5,19.9931545 C17.5,20.1459872 17.5865112,20.10023 17.4683892,20.0175447 L9.10507314,14.1632234 C8.93812545,14.04636 8.93820263,13.9535859 9.10507314,13.8367766 L17.4683892,7.98245534 L17.4683892,7.98245534 Z" id="Rectangle-10" stroke="#FFFFFF"></path>
+                        <path d="M17.4997499,16.5398797 L14.1093451,14.1682443 C13.9327301,14.0446997 13.9321679,13.9555281 14.1091141,13.8317066 L17.4984268,11.459971 L17.4997499,16.5398797 Z" id="Rectangle-10" stroke="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

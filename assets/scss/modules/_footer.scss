@@ -99,7 +99,11 @@
 
     position: absolute;
     top: 55px;
-    right: 0px;
+    right: 60px;
+
+    @include breakpoint(medium) {
+      right: 25px;
+    }
 
     img {
     }

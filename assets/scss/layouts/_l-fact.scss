@@ -1,6 +1,39 @@
+.fact-nav-ribbon {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: $gold;
+  width: 40px;
+  height: 236px;
+  z-index: 97;
+
+  &__button {
+    margin: 15px 6px 15px 6px;
+    height: 28px;
+    width: 28px;
+  }
+
+  &__label {
+    transform: rotate(90deg);
+    font-family: $font-family-con--bold;
+    font-size: 14px;
+    color: $dark;
+    width: 60px;
+    margin-top: 30px;
+    left: -8px;
+    position: absolute;
+  }
+
+}
+
 .fact-container {
   @include container();
-  @include small-cover-top-margin();
+  @include xsmall-cover-top-margin();
+
+  @include breakpoint(medium) {
+    @include small-cover-top-margin();
+  }
+
 }
 
 .fact-grid {
@@ -20,7 +53,7 @@
     display: inline-block;
     position: relative;
     padding: 0px !important;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 
     @include breakpoint(medium) {
       margin-bottom: 80px;
@@ -38,6 +71,22 @@
 
       img {
         width: 100%;
+      }
+
+      &__social {
+        margin-top: 20px;
+        font-family: $font-family-con--bold;
+
+        @include breakpoint(medium) {
+          margin-top: 28px;
+        }
+
+        img {
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          margin-right: 8px;
+        }
       }
 
       @include breakpoint(medium) {
@@ -87,7 +136,11 @@
         -ms-font-feature-settings: "ss01";
         -webkit-font-feature-settings: "ss01";
         font-feature-settings: "ss01";
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+
+        @include breakpoint(medium) {
+          margin-bottom: 30px;
+        }
       }
 
       &__body {
@@ -95,7 +148,9 @@
         text-align: left;
 
         strong {
-          color: $earth;
+          color: $earth--dark;
+          font-family: $font-family--bold;
+          letter-spacing: -0.5px;
         }
       }
 
@@ -107,10 +162,14 @@
         }
 
         a {
-          @include font-size--xsmall;
+          font-size: $font-size--small;
           font-family: $font-family-con--bold;
           display: inline-block;
-          margin-bottom: 4px;
+          margin-bottom: 10px;
+
+          @include breakpoint(medium) {
+            margin-bottom: 0px;
+          }
         }
       }
 

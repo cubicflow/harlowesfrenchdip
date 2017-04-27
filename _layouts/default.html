@@ -12,7 +12,9 @@
 
 {% include nav-expanded.html %}
 
-{% include chownow.html %}
+{% if page.show_chownow == true %}
+  {% include chownow.html %}
+{% endif %}
 
 {{ content }}
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon--back-to--ring</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facts__modal__navigation__mobile" transform="translate(-8.000000, -116.000000)">
+            <g id="icon--back-to">
+                <g transform="translate(8.000000, 116.000000)">
+                    <g>
+                        <path d="M0,14 C0,21.7318182 6.26818182,28 14,28 C21.7318182,28 28,21.7318182 28,14 C28,6.26818182 21.7318182,0 14,0 C6.26818182,0 0,6.26818182 0,14 Z" id="ring" fill="#2B262F"></path>
+                        <path d="M15.854,7.147 C15.763,7.056 15.638,7 15.5,7 C15.2235,7 15,7.2235 15,7.5 L15,12 L5.5,12 C5.2235,12 5,12.2235 5,12.5 L5,19.5 C5,19.7765 5.2235,20 5.5,20 C5.7765,20 6,19.7765 6,19.5 L6,13 L15,13 L15,17.5 C15,17.7765 15.2235,18 15.5,18 C15.638,18 15.763,17.9445 15.8535,17.8535 L20.853,12.854 C20.944,12.7635 21,12.638 21,12.5 C21,12.362 20.944,12.2375 20.8535,12.1465 L15.854,7.147 Z M16,8.707 L19.793,12.5 L16,16.293 L16,8.707 Z" id="turnright-b" fill="#FFFFFF" transform="translate(13.000000, 13.500000) scale(-1, 1) translate(-13.000000, -13.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
