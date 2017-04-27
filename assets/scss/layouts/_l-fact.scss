@@ -47,9 +47,17 @@
     }
 
     &--textcontent {
-      @include grid-column(12);
+      @include grid-column(10);
       float: left;
       text-align: center;
+      padding: 0px 15px 0px 15px !important;
+
+      @extend .small-offset-1;
+
+      @include breakpoint(medium) {
+        @extend .medium-offset-0;
+        padding: 0px !important;
+      }
 
 
       @include breakpoint(medium) {
@@ -84,9 +92,25 @@
 
       &__body {
         @include font-size--xsmall;
+        text-align: left;
 
         strong {
           color: $earth;
+        }
+      }
+
+      &__prevnext {
+        text-align: center;
+
+        @include breakpoint(medium) {
+          text-align: left;
+        }
+
+        a {
+          @include font-size--xsmall;
+          font-family: $font-family-con--bold;
+          display: inline-block;
+          margin-bottom: 4px;
         }
       }
 

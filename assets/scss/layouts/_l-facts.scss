@@ -105,6 +105,7 @@
 
       @include breakpoint(medium) {
         @include grid-column(4);
+        @extend .medium-offset-1;
         float: left;
       }
     }
@@ -179,6 +180,7 @@
       @include breakpoint(medium) {
         @include grid-column(6);
         float: left;
+        @extend .medium-offset-1;
       }
     }
 
@@ -193,6 +195,7 @@
       @include breakpoint(medium) {
         @include grid-column(10);
         float: left;
+        @extend .medium-offset-1;
       }
     }
 
