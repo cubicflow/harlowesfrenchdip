@@ -16,7 +16,7 @@ theBottleRoom.opts = {
   addLargeSuffix: true,
   addRetinaSuffix: true,
   smallBrowserWidth: 600,
-  mediumBrowserWidth: 1025,
+  mediumBrowserWidth: 1023,
   largeBrowserWidth: 1280
 };
 
