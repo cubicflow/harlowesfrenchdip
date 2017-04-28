@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /oldhome
 layout: index
 title: Homepage
 show_call_to_action: false
