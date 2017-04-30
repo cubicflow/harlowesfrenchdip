@@ -1,5 +1,5 @@
 textarea {
-  background-color: $grey-warm--xdark;
+  background-color: lighten($earth, 20);
   border-radius: 2px;
   display: block;
   border: 0px;
@@ -7,12 +7,12 @@ textarea {
   margin-bottom: 20px;
   padding-left: 15px;
   padding-top: 10px;
-  color: $off-white;
+  color: $dark;
   min-height: 100px;
 }
 
 input {
-  background-color: $grey-warm--xdark;
+  background-color: lighten($earth, 20);
   border-radius: 2px;
   height: 44px;
   display: block;
@@ -20,7 +20,7 @@ input {
   width: 100%;
   margin-bottom: 20px;
   padding-left: 15px;
-  color: $off-white;
+  color: $dark;
 }
 input[type=submit] {
     display: inline-block;
