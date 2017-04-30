@@ -4,6 +4,8 @@
   @include small-cover-bottom-margin();
   min-height: $cover-min-height;
   overflow: hidden;
+  border-top: 1px solid lighten($earth, 10);
+  border-bottom: 1px solid lighten($earth, 10);
 
   iframe {
     width: 100%;
