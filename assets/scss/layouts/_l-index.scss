@@ -5,17 +5,17 @@
 
 body {
   // background-image: url(/assets/img/tile-concrete--dark@2x.jpg);
-  background-repeat: repeat;
-  background-size: 200px 200px;
-  min-width: 300px;
-  max-width: none;
-  overflow: auto;
-  width: 100%;
+  // background-repeat: repeat;
+  // background-size: 200px 200px;
+  // min-width: 300px;
+  // max-width: none;
+  // // overflow: auto;
+  // width: 100%;
 }
 
 html {
-  max-width: none;
-  overflow: auto;
+  // max-width: none;
+  // overflow: auto;
 }
 
 .home-grid-heading {
@@ -32,6 +32,77 @@ html {
   @include container();
 }
 
+.home-row-cta {
+  @include container-xsmall();
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 80px;
+
+  @include breakpoint(medium) {
+    @include container();
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    color: $off-white;
+    font-family: $font-family-h--bold;
+    font-size: $font-size--small;
+
+    @include breakpoint(large) {
+      font-size: $font-size--medium;
+    }
+  }
+
+  &__button {
+    display: block;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 1px;
+    background: #5B5964;
+    border: 2px solid rgba(43,38,47,0.30);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+    transition: all 0.2s;
+    margin-bottom: 30px;
+
+    @include breakpoint(medium) {
+      height: 90px;
+      width: 32%;
+      line-height: 90px;
+      margin-bottom: 60px;
+    }
+
+    @include breakpoint(large) {
+      height: 120px;
+      line-height: 120px;
+    }
+
+    &:hover {
+      background: #383740;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    }
+
+
+  }
+
+}
+
+.home-description {
+  text-align: center;
+  font-size: $font-size--small;
+  line-height: 1.75em;
+  margin-bottom: 80px !important;
+  @include container-xsmall;
+
+  @include breakpoint(medium) {
+    margin-top: 20px;
+    margin-bottom: 120px !important;
+    font-size: $font-size--medium;
+  }
+}
 
 .home-grid {
 
@@ -45,7 +116,7 @@ html {
     margin-bottom: 20px;
 
     @include breakpoint(medium) {
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
   }
 
@@ -57,7 +128,7 @@ html {
     margin-bottom: 60px;
 
     @include breakpoint(medium) {
-      margin-bottom: 80px;
+      margin-bottom: 60px;
     }
 
     img {
@@ -67,6 +138,7 @@ html {
     &--block1 {
       @include grid-column(12);
       float: left;
+      margin-bottom: 20px;
 
       img {
         width: 100%;
@@ -75,6 +147,39 @@ html {
       @include breakpoint(medium) {
         @include grid-column(11);
         float: left;
+        margin-bottom: 60px;
+      }
+    }
+
+    &--block2 {
+      @include grid-column(10);
+      @extend .small-offset-1;
+      float: left;
+
+      img {
+        width: 100%;
+      }
+
+      @include breakpoint(medium) {
+        @include grid-column(5);
+        @extend .medium-offset-1;
+        float: right;
+      }
+    }
+
+    &--block3 {
+      @include grid-column(10);
+      @extend .small-offset-1;
+      float: left;
+
+      img {
+        width: 100%;
+      }
+
+      @include breakpoint(medium) {
+        @include grid-column(5);
+        float: left;
+        margin-top: 15%;
       }
     }
 

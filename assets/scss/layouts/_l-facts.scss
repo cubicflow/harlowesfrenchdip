@@ -15,12 +15,9 @@
 .facts-grid {
 
   &__row {
-    // height: 600px;
-    // @include container();
     @include grid-row();
     width: 100% !important;
     position: relative;
-    // background-color: $earth;
     margin-bottom: 20px;
 
     @include breakpoint(medium) {
