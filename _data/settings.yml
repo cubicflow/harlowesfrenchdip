@@ -10,5 +10,7 @@ location:
   address_line_1: 43 E Union Street
   address_line_2: Pasadena, CA 91103
   email: info@harlowesfrenchdip.com
+  map_url: https://maps.apple.com/?address=43%20E%20Union%20St,%20Pasadena,%20CA%20%2091103,%20United%20States&auid=7695927205159250572&ll=34.146911,-118.149499&lsp=9902&q=Harlowe's%20French%20Dip&t=m
+  chownow_url: https://ordering.chownow.com/order/7718/locations
 send_contact_to: info@harlowesfrenchdip.com
 ordering_disabled_notice: Online ordering is currently disabled

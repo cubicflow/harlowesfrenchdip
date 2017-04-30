@@ -49,16 +49,18 @@ show_chownow: true
   <!-- Row small buttons -->
 
   <div class="home-row-cta">
-    <a href="#" class="home-row-cta__button">
+    <a href="{{site.data.settings.location.map_url}}" class="home-row-cta__button">
       Get Directions
     </a>
 
-    <a href="#" class="home-row-cta__button">
-      Upcoming Events
+    <a href="/location" class="home-row-cta__button">
+      Hours &amp; Location
     </a>
 
-    <a href="#" class="home-row-cta__button">
-      Togo &amp; Delivery
+    <a class="chownow-order-online home-row-cta__button">
+      <span href="{{site.data.settings.social_media.chownow_url}}" target="_blank">
+        Togo &amp; Delivery
+      </a>
     </a>
   </div>
 
