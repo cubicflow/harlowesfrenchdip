@@ -17,36 +17,30 @@
 
       <div class="footer__col">
         <div class="footer__label">
-          Events
+          More
         </div>
 
-        <!--  kind of ugly markup to iterate through all events  -->
-        {% for page in site.pages %}
-          {% if page.title == 'Events' %}
-            {% for event in page.events %}
-              {% if forloop.index <= 4 %}
-                <a target="_blank" href="{{event.url}}"><strong>{{event.date}}</strong> &nbsp;&nbsp; {{event.description}}</a>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-        {% endfor %}
+        <a href="/chef" target="_blank">Chef Tony</a>
+        <a href="/location" target="_blank">Location</a>
+        <a href="/location" target="_blank">Contact Us</a>
 
       </div>
 
-      <div class="footer__col">
+      <div class="footer__col footer__col--shift">
         <div class="footer__label">
-          Connect with us
+          Connect
         </div>
 
         <a href="{{site.data.settings.social_media.facebook_url}}" target="_blank">Facebook</a>
         <a href="{{site.data.settings.social_media.instagram_url}}" target="_blank">Instagram</a>
         <a href="{{site.data.settings.social_media.twitter_url}}" target="_blank">Twitter</a>
-        <a href="{{site.data.settings.social_media.yelp_url}}" target="_blank">Yelp</a>
 
+      </div>
+
+      <div class="footer__col footer__col--crest">
         <div class="footer__crest">
           <img src="/assets/img/crest--gold.svg">
         </div>
-
       </div>
 
     </div>

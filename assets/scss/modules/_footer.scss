@@ -61,17 +61,29 @@
     @include grid-row();
   }
   &__col {
-    @include grid-column(12, 0px);
+    @include grid-column(6, 10px);
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 
     @include breakpoint(medium){
-      @include grid-column(6, 0px);
-      margin-bottom: 80px;
+      @include grid-column(4, 0px);
+      margin-bottom: 60px;
     }
 
     @include breakpoint(large){
       margin-bottom: 100px;
+    }
+
+    &--shift {
+      @include breakpoint(medium) {
+        @extend .medium-offset-1;
+      }
+    }
+
+    &--crest {
+      @include breakpoint(medium) {
+        @include grid-column(3, 0px);
+      }
     }
 
     a {
@@ -97,12 +109,11 @@
 
   &__crest {
 
-    position: absolute;
-    top: 55px;
-    right: 60px;
+    display: none;
 
     @include breakpoint(medium) {
-      right: 25px;
+      display: block;
+      margin-top: 25px;
     }
 
     img {
