@@ -71,7 +71,7 @@
 
       &__frame {
         margin-bottom: 0px;
-        
+
         img {
         }
 
@@ -107,6 +107,10 @@
 
       @extend .small-offset-1;
 
+      a {
+        @extend .a__underline;
+      }
+
       @include breakpoint(medium) {
         @extend .medium-offset-0;
         padding: 0px !important;
@@ -129,6 +133,7 @@
       h3 {
         color: $earth--dark;
         margin-bottom: 40px;
+        line-height: 1.5em;
       }
 
       &__numeral {
@@ -155,6 +160,16 @@
           color: $earth--dark;
           font-family: $font-family--bold;
           letter-spacing: -0.5px;
+        }
+
+        &__button {
+          text-align: center;
+
+          button {
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+          }
         }
       }
 
