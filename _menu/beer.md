@@ -7,53 +7,53 @@ is_alcohol: true
 subcategories:
   - name: On Tap
     items:
-      - name: Almanac Farmer's Reserve Nectarine
-        abv: 7%
-        origin: San Francisco, CA
-        description: Sour Ale
-        price: $9 - 7oz
+      - name: Artifex Party Milk ON NITRO
+        abv: 5.3%
+        origin: San Clemente, CA
+        description: Milk Stout
+        price: $7 - 16oz
+        image_path:
+      - name: Beachwood Hop Ninja
+        abv: 8.9%
+        origin: Long Beach, CA
+        description: Double IPA
+        price: $7 - 16oz
+        image_path:
+      - name: Boulevard Noble Prize
+        abv: 7.5%
+        origin: Kansas City, MO
+        description: Imperial Pilsner Collaboration w/ Orval
+        price: $7 - 12oz
         image_path:
       - name: Craftsman Brewing Co. 1903
-        abv: 5.6%
+        abv: 5.8%
         origin: Pasadena, CA
         description: Pre-Prohibition Style Lager
         price: $7 - 16oz
         image_path:
-      - name: Mike Hess Habitus
-        abv: 8%
+      - name: Eagle Rock Cerveza Frambuesa
+        abv: 6.4%
+        origin: Eagle Rock, CA
+        description: Barrel-aged Sour Blond on raspberries
+        price: $11 - 9oz
+        image_path:
+      - name: Eagle Rock Mosaic Canyon
+        abv: 4.6%
+        origin: Eagle Rock, CA
+        description: Day Trip Series Session IPA
+        price: $7 - 16oz
+        image_path:
+      - name: Modern Times Devil's Teeth
+        abv: 11%
         origin: San Diego, CA
-        description: Rye Double IPA
-        price: $7 - 16oz
+        description: Bourbon barrel-aged Old Ale
+        price: $11 - 9oz
         image_path:
-      - name: Mother Earth Sin-Tax
-        abv: 8.1%
-        origin: Vista, CA
-        description: Imperial Peanut Butter Stout
-        price: $7 - 16oz
-        image_path:
-      - name: Mumford Brewing Skidrokyo
-        abv: 5.7%
-        origin: Los Angeles, CA
-        description: Porter with Madagascar Vanilla
-        price: $7 - 16oz
-        image_path:
-      - name: Phantom Carriage Straight Outta Carson
+      - name: Phantom Carriage Coffee and Cream Calamityville
         abv: 7%
         origin: Carson, CA
-        description: American IPA
-        price: $9 - 16oz
-        image_path:
-      - name: Sanctum Brewing Co.
-        abv: 10%
-        origin: Pomona, CA
-        description: Belgian Golden Ale w/ Tangerine and Elderflower
+        description: Porter
         price: $8 - 12oz
-        image_path:
-      - name: The Bruery Autumn Maple
-        abv: 10%
-        origin: Placentia, CA
-        description: Pumpkin Belgian Brown Ale
-        price: $9 - 12oz
         image_path:
   - name: Bottles
     items:
