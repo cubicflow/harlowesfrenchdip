@@ -32,9 +32,9 @@
 
     <nav class="nav-expanded__more">
       <ul>
-        <li><a href="#">Call: 626.535.0985</a></li>
-        <li><a href="#">Get Directions (Maps)</a></li>
-        <li><a href="#">Order Delivery (ChowNow)</a></li>
+        <li><a href="tel:{{site.data.settings.location.phone_number}}">Call: 626.535.0985</a></li>
+        <li><a href="{{site.data.settings.location.map_url}}">Get Directions (Maps)</a></li>
+        <li><a class="chownow-order-online" href="{{site.data.settings.location.chownow_url}}">Order Delivery (ChowNow)</a></li>
       </ul>
     </nav>
 
