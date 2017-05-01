@@ -142,14 +142,14 @@
 
     @include hide-for(medium);
     position: absolute;
-    z-index: 99;
+    z-index: 90;
     right: 5px;
     top: 20px;
 
 
 
     &.active {
-
+      
       .nav__expand__line--top {
         top: 19px;
         left: 9px;

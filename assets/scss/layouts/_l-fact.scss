@@ -78,10 +78,12 @@
       }
 
       &__social {
+        display: none;
         margin-top: 20px;
         font-family: $font-family-con--bold;
 
         @include breakpoint(medium) {
+          display: inline-block;
           margin-top: 28px;
         }
 
@@ -189,6 +191,23 @@
           @include breakpoint(medium) {
             margin-bottom: 0px;
           }
+        }
+      }
+
+      &__social {
+        text-align: center;
+        margin-top: 20px;
+        font-family: $font-family-con--bold;
+
+        @include breakpoint(medium) {
+          display: none;
+        }
+
+        img {
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          margin-right: 8px;
         }
       }
 
