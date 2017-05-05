@@ -100,6 +100,11 @@ a {
     border: 1px solid $gold;
     color: $gold;
 
+    &:visited {
+      border: 1px solid $gold;
+      color: $gold;
+    }
+
     &.active, &:hover {
       background-color: $gold;
       color: $snow-white;
