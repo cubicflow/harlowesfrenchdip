@@ -7,53 +7,53 @@ is_alcohol: true
 subcategories:
   - name: On Tap
     items:
-      - name: Artifex Party Milk ON NITRO
-        abv: 5.3%
-        origin: San Clemente, CA
-        description: Milk Stout
-        price: $7 - 16oz
-        image_path:
-      - name: Beachwood Hop Ninja
-        abv: 8.9%
-        origin: Long Beach, CA
-        description: Double IPA
-        price: $7 - 16oz
-        image_path:
-      - name: Boulevard Noble Prize
+      - name: Allagash Ganache
         abv: 7.5%
-        origin: Kansas City, MO
-        description: Imperial Pilsner Collaboration w/ Orval
+        origin: Portland, ME
+        description: Dark Brett Ale Aged w/Maine Raspberries
+        price: $11 - 9oz
+        image_path:
+      - name: Allagash Little Sal
+        abv: 6.7%
+        origin: Portland, ME
+        description: BA Sour Ale with Maine Blueberries
+        price: $11 - 9oz
+        image_path:
+      - name: Artifex Peaches N Cream
+        abv: 5.6%
+        origin: San Clemente, CA
+        description: Golden Ale on Nitrogen
         price: $7 - 12oz
         image_path:
-      - name: Craftsman Brewing Co. 1903
-        abv: 5.8%
-        origin: Pasadena, CA
-        description: Pre-Prohibition Style Lager
-        price: $7 - 16oz
+      - name: Cascade Manhattan NW
+        abv: 10.3%
+        origin: Portland, OR
+        description: BA Quad w/Cherries & Noyaux
+        price: $13 - 6oz
         image_path:
-      - name: Eagle Rock Cerveza Frambuesa
-        abv: 6.4%
-        origin: Eagle Rock, CA
-        description: Barrel-aged Sour Blond on raspberries
-        price: $11 - 9oz
-        image_path:
-      - name: Eagle Rock Mosaic Canyon
-        abv: 4.6%
-        origin: Eagle Rock, CA
-        description: Day Trip Series Session IPA
-        price: $7 - 16oz
-        image_path:
-      - name: Modern Times Devil's Teeth
+      - name: Cascade Tangerine Dream
         abv: 11%
-        origin: San Diego, CA
-        description: Bourbon barrel-aged Old Ale
-        price: $11 - 9oz
+        origin: Portland, OR
+        description: BA Quad w/Tangerines
+        price: $13 - 6oz
         image_path:
-      - name: Phantom Carriage Coffee and Cream Calamityville
-        abv: 7%
-        origin: Carson, CA
-        description: Porter
-        price: $8 - 12oz
+      - name: Craftsman Heavenly Hefe
+        abv: 4.8%
+        origin: Pasadena, CA
+        description: Bavarian Style Wheat Beer
+        price: $7 - 16oz
+        image_path:
+      - name: Green Cheek Beer Co. Radiant Beauty
+        abv: 6.7%
+        origin: Orange, CA
+        description: California IPA
+        price: $9 - 16oz
+        image_path:
+      - name: Modern Times Centaur Gardens
+        abv: 6.6%
+        origin: San Diego, CA
+        description: Hazy IPA
+        price: $7 - 16oz
         image_path:
   - name: Bottles
     items:
@@ -63,11 +63,23 @@ subcategories:
         description: Witbier
         price: $7 - 12oz
         image_path:
-      - name: Avery Raspberry Sour
+      - name: Anthem Cider
+        abv: 6.5%
+        origin: Salem, OR
+        description: Apple Cider
+        price: $6 - 12oz
+        image_path:
+      - name: Avery Apricot Sour
         abv: 6.5%
         origin: Boulder, CO
-        description: Wild Ale with Raspberries
+        description: Wild Ale w/Apricots
         price: $15 - 22oz
+        image_path:
+      - name: Eagle Rock Revolution
+        abv: 6.5%
+        origin: Eagle Rock, CA
+        description: American Pale Ale
+        price: $7 - 16oz
         image_path:
       - name: Delirium Tremens
         abv: 9.5%
@@ -81,29 +93,11 @@ subcategories:
         description: Golden Ale
         price: $11 - 330ml
         image_path:
-      - name: Golden State Cider
-        abv: 6.7%
-        origin: Sebastopol, CA
-        description: Apple Cider
-        price: $7 - 500ml
-        image_path:
-      - name: Lindeman’s Peche
-        abv: 5%
-        origin: Belgium
-        description: Lambic
-        price: $12 - 330ml
-        image_path:
-      - name: Maui Bikini Blond
-        abv: 6%
-        origin: Hawaii
-        description: Lager
+      - name: Fort Point Beer Co. KSA
+        abv: 4.6%
+        origin: San Francisco, CA
+        description: Kolsch Style Ale
         price: $6 - 12oz
-        image_path:
-      - name: Oscar Blue’s Dale’s Pale Ale
-        abv: 6.5%
-        origin: Lyons, CA
-        description: Pale Ale
-        price: $7 - 12oz
         image_path:
       - name: Refuge Blood Orange Wit
         abv: 5%
@@ -131,29 +125,29 @@ subcategories:
         image_path:
   - name: Reserve
     items:
-      - name: Deus Biere de Brut
-        abv: 11%
-        origin: Belgium
+      - name: Beachwood Chaos Is A Friend Of Mine
+        abv: 6.5%
+        origin: Long Beach, CA
         description: Champagne Beer
-        price: $60 - 750ml
+        price: $30 - 750ml
         image_path:
-      - name: Eagle Rock Zes
-        abv: 8%
+      - name: Cascade Brewing Blackcap Raspberry
+        abv: 8.13%
+        origin: Portland, OR
+        description: Lambic
+        price: $40 - 750ml
+        image_path:
+      - name: Eagle Rock Equinox
+        abv: 6%
         origin: Eagle Rock, CA
-        description: Belgian Pale
-        price: $15 - 330ml
+        description: Barrel Aged Sour Blond Ale
+        price: $17 - 375ml
         image_path:
       - name: Monkish Select Monk 3
         abv: 8.3%
         origin: Torrance, CA
         description: Tripel
         price: $21 - 750ml
-        image_path:
-      - name: Phantom Carriage Baskerville
-        abv: 11%
-        origin: Torrance, CA
-        description: Barrel Aged Stout
-        price: $19 - 330ml
         image_path:
       - name: Rodenbach Caractère Rouge
         abv: 7%
@@ -164,7 +158,7 @@ subcategories:
       - name: The Bruery White Chocolate
         abv: 14%
         origin: Placentia, CA
-        description: Wheatwine
-        price: $50 - 750ml
+        description: Wheatwine w/Cacao Nibs & Vanilla
+        price: $45 - 750ml
         image_path:
 ---
