@@ -7,7 +7,7 @@ is_alcohol: false
 subcategories:
   - name: The Dips
     items:
-      - name: The Beef Dip
+      - name: The Roast Beef Dip
         description: Beef au jus, side horseradish, 4.5oz carve
         price: 9.00
         image_path:
@@ -39,7 +39,7 @@ subcategories:
             required: false
       - name: The Braised Lamb Dip
         description: Lamb au jus, House Labneh, 4.5oz carve
-        price: 10.00
+        price: 11.00
         image_path:
         stackable: false
         orderable: true
@@ -50,8 +50,8 @@ subcategories:
   - name: The Burger
     items:
       - name: Single Patty
-        description: Proprietary Blend of chuck, short rib, and brisket. 5.5oz patties. Served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun. Add Cheese +$1. House American, Swiss, cheddar, bleu. Veggie patty available upon request.
-        price: 10.00
+        description: Proprietary Blend of chuck, short rib, and brisket. 7oz patties. Served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun. Add Cheese +$1. House American, Swiss, cheddar, bleu. Add Bacon, Avocado, Fried Egg +$2 each.
+        price: 11.00
         image_path:
         stackable: false
         orderable: true
@@ -59,9 +59,6 @@ subcategories:
           - name: Meat cooked to
             options: "Rare|Medium-rare|Medium|Medium-well|Well"
             required: true
-          - name: Substitute Veggie Patty
-            options: "No|Yes"
-            required: false
           - name: Add House American Cheese +$1
             options: "No|Yes[+1.00]"
             required: false
@@ -74,10 +71,41 @@ subcategories:
           - name: Add bleu cheese +$1
             options: "No|Yes[+1.00]"
             required: false
-          - name: Add North Country Bacon +$3
-            options: "No|Yes[+3.00]"
+          - name: Add North Country Bacon +$2
+            options: "No|Yes[+2.00]"
             required: false
           - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+          - name: Add fried egg +$2
+            options: "No|Yes[+2.00]"
+            required: false
+      - name: Portobello Mushroom
+        description: Served with lettuce, tomato, onion, House Pickles, Secret Sauce, sesame bun. Add Cheese +$1. House American, Swiss, cheddar, bleu. Add Bacon, Avocado, Fried Egg +$2 each.
+        price: 9.00
+        image_path:
+        stackable: false
+        orderable: true
+        custom_fields:
+          - name: Add House American Cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add Swiss Cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add cheddar cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add bleu cheese +$1
+            options: "No|Yes[+1.00]"
+            required: false
+          - name: Add North Country Bacon +$2
+            options: "No|Yes[+2.00]"
+            required: false
+          - name: Add 1/2 avocado +$2
+            options: "No|Yes[+2.00]"
+            required: false
+          - name: Add fried egg +$2
             options: "No|Yes[+2.00]"
             required: false
   - name: Signatures
@@ -127,67 +155,46 @@ subcategories:
           - name: Add 1/2 avocado +$2
             options: "No|Yes[+2.00]"
             required: false
-      - name: Portobello Burger
-        description: Tomato relish, almond pesto, mozzarella
-        price: 9.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Add North Country Bacon +$3
-            options: "No|Yes[+3.00]"
-            required: false
-          - name: Add 1/2 avocado +$2
-            options: "No|Yes[+2.00]"
-            required: false
-      - name: Harlowe's Grilled Cheese
-        description: Ciabatta, Harlowe’s American cheese, sea salt
-        price: 8.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Add North Country Bacon +$3
-            options: "No|Yes[+3.00]"
-            required: false
-          - name: Add 1/2 avocado +$2
-            options: "No|Yes[+2.00]"
-            required: false
-      - name: Old Town BBQ Meatloaf
-        description: Crispy onions, coleslaw, BBQ sauce
-        price: 10.00
-        image_path:
-        stackable: false
-        orderable: true
-        custom_fields:
-          - name: Add North Country Bacon +$3
-            options: "No|Yes[+3.00]"
-            required: false
-          - name: Add 1/2 avocado +$2
-            options: "No|Yes[+2.00]"
-            required: false
-      - name: Spring Pea Linguini
-        description: Asparagus, English peas, sugar snap peas, snow peas, spring garlic parmesan cream
-        price: 13.00
+      - name: Filet O' Today
+        description: Crispy catfish, tartar sauce, lettuce, tomato, red onion
+        price: 11.00
         image_path:
         stackable: true
         orderable: true
-      - name: Fish 'n' Chips
-        description: Beer battered Alaskan halibut, house tartar sauce, lemon, pea tendril salad, salt brine fries
-        price: 16.00
+      - name: Andy's PBLT
+        description: Pork belly, lettuce, tomato
+        price: 10.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Spaghetti & Meatballs
+        description: Fresh pasta, reggiano, marinara
+        price: 15.00
+        image_path:
+        stackable: true
+        orderable: true
+      - name: Scottish Organic Salmon
+        description: Baby summer squashes, tomato relish
+        price: 19.00
         image_path:
         stackable: true
         orderable: true
       - name: Flat Iron Pub Steak
-        description: Bone marrow butter, sautéed spinach, salt brine fries. (8 oz. Prime)
-        price: 17.00
+        description: Sautéed spinach, salt brine fries. (8 oz. Prime)
+        price: 21.00
         image_path:
         stackable: true
-        orderable: true    
+        orderable: true
+      - name: 1/2 Rack Baby Back Ribs
+        description: Corn, Slaw, Potato Salad
+        price: 23.00
+        image_path:
+        stackable: true
+        orderable: true
   - name: Salads
     items:
       - name: Simple Greens
-        description: House cut greens, cranberry, sunflower, almonds, grapes, reggiano, white balsamic vinaigrette. Whole portion +$5
+        description: House cut greens, cranberry, sunflower, almonds, grapes, Point Reyes bleu cheese, balsamic vinaigrette. Whole portion +$5
         price: 4.00
         image_path:
         stackable: false
@@ -197,7 +204,7 @@ subcategories:
             options: "No|Yes[+5.00]"
             required: false
       - name: Harlowe's Caesar
-        description: House cut romaine, baby kale, fried croutons, reggiano, roasted garlic Caesar dressing. Whole portion +$6
+        description: House cut romaine, fried croutons, reggiano, roasted garlic Caesar dressing. Whole portion +$6
         price: 4.00
         image_path:
         stackable: false
@@ -206,15 +213,15 @@ subcategories:
           - name: Whole portion +$6
             options: "No|Yes[+6.00]"
             required: false
-      - name: Strawberry & Feta
-        description: Spinach, red onion, pistachio, champagne vinaigrette
+      - name: Japanese Tomatoes
+        description: White miso dressing, green onions, watermelon togarashi croutons, shisho
         price: 11.00
         image_path:
         stackable: true
         orderable: true
-      - name: Pearl Barley & Bacon
-        description: Frisée, poached egg, Reggiano, sherry vinaigrette
-        price: 11.00
+      - name: "Wedgie"
+        description: Bacon, avocado, tomato, blue cheese, green onion, roasted garlic
+        price: 12.00
         image_path:
         stackable: true
         orderable: true
@@ -232,34 +239,30 @@ subcategories:
             required: false
   - name: Bar Bites
     items:
-      - name: Hummus and Pita
-        description: Parsley Pesto, Feta, Extra Virgin Olive Oil
+      - name: Roasted Eggplant Dip
+        description: Grilled flatbread, EVOO, Aleppo chili flake
         price: 6.00
         image_path:
         stackable: true
         orderable: true
-      - name: Pan Fried Crab Cake
-        description: House tartar sauce, herb salad, lemon
-        price: 11.00
+      - name: Maryland Crispy Calamari
+        description: House tartar sauce, lemon
+        price: 9.00
         image_path:
         stackable: true
         orderable: true
       - name: Fried Chicken Drumsticks
-        description: Buttermilk aioli, barbecue sauce
+        description: Buttermilk aioli, soy apricot sauce
         price: 6.00
         image_path:
         stackable: true
         orderable: true
-      - name: Grilled Asparagus
-        description: Anchovy garlic butter. +$2 for poached egg
-        price: 8.00
+      - name: Grilled Corn on the Cob
+        description: Mayo, cotija, lime, chipotle flake
+        price: 5.00
         image_path:
-        stackable: false
+        stackable: true
         orderable: true
-        custom_fields:
-          - name: Poached Egg +$2
-            options: "No|Yes[+2.00]"
-            required: false
       - name: Harlowe's Texas Toast
         description: Bone marrow, garlic, parmesan, parsley
         price: 4.00
@@ -336,14 +339,10 @@ subcategories:
         image_path:
         stackable: true
         orderable: true
-      - name: House Pecan Pie
-        description: A la mode, +$2
+      - name: Harlowe's Brownie Sundae
+        description: Chocolate sauce, peanuts, bourbon cherries, ice cream
         price: 6.00
         image_path:
-        stackable: false
+        stackable: true
         orderable: true
-        custom_fields:
-          - name: A la mode +$2
-            options: "No|Yes[+2.00]"
-            required: false
 ---
