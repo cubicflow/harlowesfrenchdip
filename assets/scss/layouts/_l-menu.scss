@@ -141,9 +141,11 @@
       }
 
       &__price {
-        font-size: $font-size--xsmall;
-        font-family: $font-family--regular;
+        font-size: $font-size--small;
+        font-family: $font-family--bold;
         float: left;
+        color: $grey;
+        margin-top: 5px;
       }
 
 
