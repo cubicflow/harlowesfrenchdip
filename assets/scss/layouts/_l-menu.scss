@@ -11,6 +11,18 @@
   @include cover-min-height();
 }
 
+.breakfasttime {
+  margin-bottom: 24px;
+
+  span {
+    color: $dark;
+    text-align: center;
+  }
+
+  @include breakpoint(medium) {
+    text-align: left;
+  }
+}
 
 .menu {
   @include container();

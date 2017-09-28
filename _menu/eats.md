@@ -4,6 +4,7 @@ layout: menu
 sidebar_order: 1
 is_public: true
 is_alcohol: false
+is_breakfast: false
 subcategories:
   - name: The Dips
     items:
